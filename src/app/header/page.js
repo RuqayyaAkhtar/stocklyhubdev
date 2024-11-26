@@ -1,4 +1,4 @@
-'use client';
+'use client';  // This is correct for client-side rendering
 import React, { useState } from 'react';
 import Image from 'next/image';
 import logo from '../images/logo22.png'; // Adjust path as per your setup
