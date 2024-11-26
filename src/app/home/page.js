@@ -73,8 +73,8 @@ const Home = () => {
             <h1 className={styles.bannerH1}>All-in-One Inventory Management Software for Multi-Channel & Multi-Location Businesses!</h1>
             <p className={styles.para}>Real-Time Inventory Tracking Offered to Enhance Your Daily Operations!</p>
             <div className={styles.btnDiv}>
-            <button className={styles.bannerBtn} ><a href="/features" className={styles.bannerA}>Features</a></button>
-            <button className={styles.bannerBtn2} id="demo-btn3" ><a href="/bookDemo" className={styles.bannerA}>Book Demo</a></button>
+            <button className={styles.bannerBtn} ><a href="/stocklyhubdev/features" className={styles.bannerA}>Features</a></button>
+            <button className={styles.bannerBtn2} id="demo-btn3" ><a href="/stocklyhubdev/bookDemo" className={styles.bannerA}>Book Demo</a></button>
             </div>
 
             </div>
@@ -170,7 +170,7 @@ const Home = () => {
       <div className={styles.header}>
         <h2>Lorem Ipsum</h2>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. a galley of type and scrambled it to make a book.</p>
-        <a href="/"></a><button className={styles.pricingButton}>See Pricing</button>
+        <a href="/stocklyhubdev/pricing"></a><button className={styles.pricingButton}>See Pricing</button>
       </div>
       
 
