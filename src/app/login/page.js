@@ -72,7 +72,7 @@ export default function Login() {
             </div>
             <button type="submit" className={styles["submit"]}>Login</button>
             <p className={styles["signup-p"]}>
-              Don't have an account? <Link href="/stocklyhubdev/signup">Sign up</Link>
+              Don't have an account? <Link href="/signup">Sign up</Link>
             </p>
           </form>
         </div>
