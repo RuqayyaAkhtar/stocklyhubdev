@@ -2,7 +2,7 @@
 import React from 'react';
 import styles from './industries.module.css';
 import Image from 'next/image';
-import faqImage from '../images/Group 1171278128.png'; // Replace with the correct path
+import faqImage from '../images/Group 1171278128.png'; 
 import Header from '../header/page';
 import { CiSearch } from "react-icons/ci";
 import { GoPlus } from "react-icons/go";
@@ -33,7 +33,7 @@ const IndustriesPage = () => {
         <p className={styles.subtitle}>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
         <div className={styles.searchContainer}>
-          <a href="/bookDemo">
+          <a href="/stocklyhubdev/bookDemo">
           <button>Book Demo</button>
           </a>
         </div>
@@ -56,8 +56,8 @@ const IndustriesPage = () => {
               src={industry.image}
               alt={industry.title}
               className={styles.industryImage}
-              width={400} // Replace with your actual image width
-              height={300} // Replace with your actual image height
+              width={400} 
+              height={300} 
             />
           </div>
           <div className={styles.textWrapper}>
@@ -67,8 +67,8 @@ const IndustriesPage = () => {
             </div>
             <p className={styles.sectionSubheading}>{industry.description}</p>
             <div className={styles.buttonsWrapper}>
-             <a href="/features"><button className={styles.buttonPrimary}>{industry.button1}</button></a> 
-             <a href="/bookDemo"> <button className={styles.buttonSecondary}>{industry.button2}</button></a>
+             <a href="/stocklyhubdev/features"><button className={styles.buttonPrimary}>{industry.button1}</button></a> 
+             <a href="/stocklyhubdev/bookDemo"> <button className={styles.buttonSecondary}>{industry.button2}</button></a>
             </div>
           </div>
         </div>
