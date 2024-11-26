@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logoContainer}>
-        <a href="stocklyhubdev/">
+        <a href="/">
           <Image className={styles.logoImage} src={logo} alt="Logo" priority />
         </a>
       </div>
@@ -33,9 +33,9 @@ const Header = () => {
           <li><a href="/stocklyhubdev/industries">Industries</a></li>
           <li><a href="/stocklyhubdev/features">Features</a></li>
           <li><a href="/stocklyhubdev/integration">Integrations</a></li>
-          <li><a href="stocklyhubdev/pricing">Pricing</a></li>
-          <li className="hideItem"><a href="stocklyhubdev/contacts">Contact Us</a></li>
-          <li className="hideItem"><a href="stocklyhubdev/login">Login</a></li>
+          <li><a href="/stocklyhubdev/pricing">Pricing</a></li>
+          <li className="hideItem"><a href="/stocklyhubdev/contacts">Contact Us</a></li>
+          <li className="hideItem"><a href="/stocklyhubdev/login">Login</a></li>
         </ul>
       </nav>
 
@@ -45,7 +45,7 @@ const Header = () => {
         </div>
 
         <button className={styles.demoBtn}>
-          <a href="/bookDemo" className={styles.bookDemoA}>Free Demo <GoArrowUpRight className={styles.demoA} /></a>
+          <a href="/stocklyhubdev/bookDemo" className={styles.bookDemoA}>Free Demo <GoArrowUpRight className={styles.demoA} /></a>
         </button>
         <a className={styles.menuLi}><CiMenuBurger className={styles.menuIcon} onClick={toggleMenu} /></a>
 
@@ -58,19 +58,19 @@ const Header = () => {
                 </button>
               </div>
               <ul className={styles.menuList}>
-                <li><a href="stocklyhubdev/">Home</a></li>
-                <li><a href="stocklyhubdev/industries">Industries</a></li>
-                <li><a href="stocklyhubdev/features">Features</a></li>
-                <li><a href="stocklyhubdev/integration">Integrations</a></li>
-                <li><a href="stocklyhubdev/pricing">Pricing</a></li>
-                <li><a href="stocklyhubdev/contacts">Contact Us</a></li>
-                <li><a href="stocklyhubdev/login">Login</a></li>
-                <li><a href="stocklyhubdev/terms">Terms And Conditions</a></li>
-                <li><a href="stocklyhubdev/privacy&policy">Privacy Policy</a></li>
-                <li><a href="stocklyhubdev/gdpr">GDPR</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/stocklyhubdev/industries">Industries</a></li>
+                <li><a href="/stocklyhubdev/features">Features</a></li>
+                <li><a href="/stocklyhubdev/integration">Integrations</a></li>
+                <li><a href="/stocklyhubdev/pricing">Pricing</a></li>
+                <li><a href="/stocklyhubdev/contacts">Contact Us</a></li>
+                <li><a href="/stocklyhubdev/login">Login</a></li>
+                <li><a href="/stocklyhubdev/terms">Terms And Conditions</a></li>
+                <li><a href="/stocklyhubdev/privacy&policy">Privacy Policy</a></li>
+                <li><a href="/stocklyhubdev/gdpr">GDPR</a></li>
               </ul>
               <button className={styles.demoBtn}>
-                <a href="stocklyhubdev/contact" className={styles.text_light}>Free Demo</a>
+                <a href="/stocklyhubdev/contact" className={styles.text_light}>Free Demo</a>
               </button>
             </span>
           </div>
