@@ -1,0 +1,372 @@
+.signupPage {
+    display: flex;
+    gap: 20px;
+    padding:0 20px 20px 20px; 
+    padding-top: 0 !important;
+    flex-wrap: wrap;
+    /* font-family: Arial, sans-serif; */
+    border-top: 1px solid #BCD9D5;
+    margin: 0;
+  }
+  
+  /* .leftSection,
+  .rightSection {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 0;
+  } */
+   .leftSection{
+     border: 1px solid #218172;
+     border-radius: 8px;   
+     margin-top: 2%;
+   }
+ 
+  .rightSection{
+    border-left: 1px solid #218172;
+    border-radius: 0 !important;
+  }
+  .borderedSection {
+    border: 1px solid #2a8678;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .sectionHeading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .formGroup {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .halfWidth {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .inputLabel {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2a8678;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .inputField:focus {
+    border-color: #218172; /* Focus color */
+    outline: none;
+  }
+  
+  .checkboxGroup {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .passwordInput {
+    display: flex;
+    align-items: center;
+  }
+  
+  .togglePassword {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #2a8678;
+  }
+  
+  .terms {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .terms label {
+    font-size: 15px;
+    color: #888888;
+    margin-bottom: 2%;
+    cursor:  pointer;
+  }
+  .terms a{
+    color: #2a8678;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    background-color: #2a8678;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 220px;
+  }
+  
+  .buttons button:hover {
+    background-color: #1d5f4e;
+  }
+  
+  .loginLink {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  .loginLink a {
+    color: #218172 !important;
+    text-decoration: none;
+  }
+  
+  .loginLink a:hover {
+    text-decoration: underline;
+  }
+  
+  .request{
+    border: 1px solid #218172 !important;
+    background-color: transparent !important;
+    color: #218172 !important;
+  }
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .signupPage {
+      flex-direction: column;
+    }
+  
+    .formGroup {
+      gap: 15px; /* Reduce gap on smaller screens */
+    }
+  }
+  .signupPage {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+  }
+  
+  .leftSection,
+  .rightSection {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .borderedSection {
+    border: 1px solid #2a8678;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .sectionHeading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .formGroup {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .halfWidth {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .fullWidth {
+    width: 100%;
+  }
+  
+  .inputLabel {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2a8678;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .inputField:focus {
+    border-color: #218172; /* Focus color */
+    outline: none;
+  }
+  
+  .checkboxGroup {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  /*  */
+  .checkboxGroup label{
+    color: #888888;
+    cursor: pointer;
+  }
+  /*  */
+  
+.radioo{
+  appearance: none; 
+  -webkit-appearance: none;
+  width: 12px !important;
+  height: 12px;
+  border: 1px solid #218172 !important; 
+  border-radius: 2px !important; 
+  background-color: transparent !important; 
+  cursor: pointer;
+  position: relative;
+}
+
+
+.radioo:checked{
+  background-color: #218172 !important; 
+  border-color: #218172 !important;
+}
+
+.radioo:checked::after {
+  content: "\2713"; 
+  color: white;
+  font-size: 8px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  .inputLabel1{
+    margin-top: 2% !important;
+    /* border: 1px solid red; */
+    font-size: 12px;
+  }
+  
+  .passwordInput {
+    display: flex;
+    align-items: center;
+    border: 1px solid #2a8678;
+    border-radius: 3px;
+    justify-content: space-between;
+    padding: 0 8px 0 0;
+  }
+  .passwordInput input{
+    border: none;
+    outline: none;
+    margin: 0;
+  }
+  
+  .eyeIcon{
+    font-size: 22px;
+    color: #888888;
+    cursor: pointer;
+  }
+  .eyeIcon.active{
+    color: #218172;
+  }
+  .terms {
+    margin: 20px 0;
+  }
+  
+  .terms label {
+    font-size: 14px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    background-color: #2a8678;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .buttons button:hover {
+    background-color: #1d5f4e;
+  }
+  
+  .loginLink {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .loginLink a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .loginLink a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .signupPage {
+      flex-direction: column;
+    }
+    .rightSection{
+      width: 100%;
+      border: 1px solid #218172;
+      border-radius: 8px !important;
+    }
+  
+    .formGroup {
+      gap: 15px; /* Reduce gap on smaller screens */
+    }
+  
+    .halfWidth {
+      flex: 1;
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 500px) {
+    .checkboxGroup {
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 15px;
+      font-size: 12px;
+    }
+    .buttons button{
+      width: 110px;
+      padding: 10px ;
+      font-size: 12px;
+    }
+  }
