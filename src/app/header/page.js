@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logoContainer}>
-        <a href="/">
+        <a href="/stocklyhub">
           <Image className={styles.logoImage} src={logo} alt="Logo" priority />
         </a>
       </div>
