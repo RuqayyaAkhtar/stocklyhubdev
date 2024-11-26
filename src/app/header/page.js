@@ -23,19 +23,19 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logoContainer}>
-        <a href="/">
+        <a href="stocklyhubdev/">
           <Image className={styles.logoImage} src={logo} alt="Logo" priority />
         </a>
       </div>
 
       <nav className={styles.nav}>
         <ul className={styles.navList}>
-          <li><a href="/industries">Industries</a></li>
-          <li><a href="/features">Features</a></li>
-          <li><a href="/integration">Integrations</a></li>
-          <li><a href="/pricing">Pricing</a></li>
-          <li className="hideItem"><a href="/contacts">Contact Us</a></li>
-          <li className="hideItem"><a href="/login">Login</a></li>
+          <li><a href="stocklyhubdev/industries">Industries</a></li>
+          <li><a href="stocklyhubdev/features">Features</a></li>
+          <li><a href="stocklyhubdev/integration">Integrations</a></li>
+          <li><a href="stocklyhubdev/pricing">Pricing</a></li>
+          <li className="hideItem"><a href="stocklyhubdev/contacts">Contact Us</a></li>
+          <li className="hideItem"><a href="stocklyhubdev/login">Login</a></li>
         </ul>
       </nav>
 
@@ -58,19 +58,19 @@ const Header = () => {
                 </button>
               </div>
               <ul className={styles.menuList}>
-                <li><a href="/">Home</a></li>
-                <li><a href="/industries">Industries</a></li>
-                <li><a href="/features">Features</a></li>
-                <li><a href="/integration">Integrations</a></li>
-                <li><a href="/pricing">Pricing</a></li>
-                <li><a href="/contacts">Contact Us</a></li>
-                <li><a href="/login">Login</a></li>
-                <li><a href="/terms">Terms And Conditions</a></li>
-                <li><a href="/privacy&policy">Privacy Policy</a></li>
-                <li><a href="/gdpr">GDPR</a></li>
+                <li><a href="stocklyhubdev/">Home</a></li>
+                <li><a href="stocklyhubdev/industries">Industries</a></li>
+                <li><a href="stocklyhubdev/features">Features</a></li>
+                <li><a href="stocklyhubdev/integration">Integrations</a></li>
+                <li><a href="stocklyhubdev/pricing">Pricing</a></li>
+                <li><a href="stocklyhubdev/contacts">Contact Us</a></li>
+                <li><a href="stocklyhubdev/login">Login</a></li>
+                <li><a href="stocklyhubdev/terms">Terms And Conditions</a></li>
+                <li><a href="stocklyhubdev/privacy&policy">Privacy Policy</a></li>
+                <li><a href="stocklyhubdev/gdpr">GDPR</a></li>
               </ul>
               <button className={styles.demoBtn}>
-                <a href="/contact" className={styles.text_light}>Free Demo</a>
+                <a href="stocklyhubdev/contact" className={styles.text_light}>Free Demo</a>
               </button>
             </span>
           </div>
