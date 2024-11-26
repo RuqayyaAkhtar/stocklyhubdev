@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5760],{94908:(t,e,r)=>{r.d(e,{l1R:()=>i});var n=r(93435);function i(t){return(0,n.k5)({tag:"svg",attr:{fill:"none",viewBox:"0 0 24 24",strokeWidth:"1.5",stroke:"currentColor","aria-hidden":"true"},child:[{tag:"path",attr:{strokeLinecap:"round",strokeLinejoin:"round",d:"M18 12H6"},child:[]}]})(t)}}}]);
