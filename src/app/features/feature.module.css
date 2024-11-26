@@ -3,16 +3,13 @@
     align-items: center;
     padding: 55px 55px 60px 60px;
     background-color: #1d7f72;
-    /* Background color similar to the image */
     color: #fff;
     justify-content: space-between;
-    /* overflow: hidden; */
 }
 
 .textContainer {
     max-width: 580px;
     text-align: left;
-    /* margin-bottom: 2rem; */
     align-self: center;
     justify-self: center;
     height: max-content;
@@ -87,11 +84,12 @@
   .tabButton {
     padding: 0.5rem 1rem;
     border: none;
-    background-color: #e6f6f4;
-    color: #218172;
+    background-color:transparent;
+    color: #666;
     cursor: pointer;
     border-radius: 4px;
     transition: 0.3s;
+    border: 1px solid #909090;
   }
   
   .tabButton.active {
@@ -131,13 +129,13 @@
     width: 100%;
     height: auto;
     border-radius: 8px;
-  }/* Ensure the zigzag effect is controlled by flex-direction */
+  }
 .contentRow {
     display: flex;
     align-items: center;
     gap: 2rem;
     margin-bottom: 2rem;
-    /* Default direction is row, will change for zigzag */
+    
 }
 
 .contentRow.zigzag {
@@ -173,7 +171,7 @@
     border-radius: 8px;
     padding:2rem 1.5rem;
     text-align: center;
-    width: calc(33% - 1.5rem); /* Adjust the width as needed */
+    width: calc(33% - 1.5rem); 
     transition: transform 0.3s, box-shadow 0.3s;
   }
   
@@ -190,11 +188,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 1rem; /* Centers the icon and adds space below */
+    margin: 0 auto 1rem;
   }
   
   .icon {
-    font-size: 64px; /* Adjust the size of the icon */
+    font-size: 64px; 
     color: #218172;
   }
   
@@ -214,18 +212,28 @@
   .bookDemo,
   .seePricing {
     margin-right: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #218172;
+    padding: .75rem 2rem;
+    background-color: #1a655e;
     color: #fff;
-    border: none;
+    border: 1px solid #1a655e;
     border-radius: 4px;
     cursor: pointer;
     transition: 0.3s;
   }
-  
-  .bookDemo:hover,
-  .seePricing:hover {
+.seePricing{
+    background-color: transparent;
+    border: 1px solid #1a655e;
+    color: #1a655e;
+}
+.seePricing:hover{
     background-color: #1a655e;
+    color: white;
+}
+  
+  .bookDemo:hover {
+    background-color: transparent;
+    color: #1a655e;
+    border: 1px solid #1a655e;
   }
   /*  */
 
@@ -409,16 +417,13 @@ padding-right: 32px;
     }
 
 
-/* Responsive Styles */
 @media (max-width: 950px) {
     .industryCard {
         flex-direction: column;
-        /* text-align: center; */
     }
 
     .rowReverse {
         flex-direction: column;
-        /* Reset rowReverse on small screens */
     }
 
     .imageWrapper {
@@ -473,27 +478,24 @@ padding-right: 32px;
         border-radius: 8px;
         padding:2rem 1.5rem;
         text-align: center;
-        width: calc(51% - 1.5rem); /* Adjust the width as needed */
+        width: calc(51% - 1.5rem); 
         transition: transform 0.3s, box-shadow 0.3s;
       }  .contentRow {
-        flex-direction: column; /* Stacks content and image vertically */
-        align-items: center; /* Centers the content horizontally */
+        flex-direction: column; 
+        align-items: center;
       }
     
-      /* Ensure content and image take full width */
       .content, .image {
-        width: 100%; /* Ensure both divs take full width */
+        width: 100%;
       }
     
-      /* If zigzag class is applied, keep stacking content vertically */
       .contentRow.zigzag {
-        flex-direction: column !important; /* Stacks content and image vertically */
+        flex-direction: column !important; 
       }
     
-      /* Optionally, adjust the image size */
       .image img {
-        max-width: 100%; /* Ensures image scales properly */
-        height: auto; /* Maintain aspect ratio */
+        max-width: 100%; 
+        height: auto;
       }
     
 }
@@ -524,6 +526,9 @@ padding-right: 32px;
 
     .contactMainn {
         padding: 20px;
+    }
+    .integrationSection{
+        padding: 32px 20px ;
     }
 }
 

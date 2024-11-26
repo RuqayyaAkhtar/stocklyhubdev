@@ -2,16 +2,14 @@
     display: flex;
     align-items: center;
     padding:45px 0 55px 60px;
-    background-color: #1d7f72; /* Background color similar to the image */
+    background-color: #1d7f72; 
     color: #fff;
     justify-content: space-between;
-    /* overflow: hidden; */
   }
   
   .textContainer {
     max-width: 580px;
     text-align: left;
-    /* margin-bottom: 2rem; */
     align-self: center;
     justify-self: center;
     height: max-content;
@@ -65,7 +63,7 @@
   .sectionWrapper {
     display: flex;
     flex-direction: column;
-    gap: 2rem; /* Spacing between cards */
+    gap: 2rem; 
     padding: 2rem;
   }
   
@@ -76,17 +74,14 @@
     gap: 2rem;
     background-color: #fff;
     border-radius: 8px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     padding: 1.5rem;
   }
 
   
   .icon {
-    /* font-size: 2rem; */
     color: #218172;
     margin-bottom: 20px;
     display: flex ;
-    /* justify-content: center; */
     align-items: center ;
   }
   .iconDiv {
@@ -104,12 +99,12 @@
   
   
   .rowReverse {
-    flex-direction: row-reverse; /* Reverse row direction for zigzag effect */
+    flex-direction: row-reverse; 
   }
   
   .imageWrapper {
     flex: 1;
-    max-width: 40%; /* Restrict image size */
+    max-width: 40%; 
   }
   
   .industryImage {
@@ -325,20 +320,16 @@
   @media (max-width: 950px) {
     .industryCard {
       flex-direction: column;
-      /* text-align: center; */
     }
   
     .rowReverse {
-      flex-direction: column; /* Reset rowReverse on small screens */
+      flex-direction: column; 
     }
   
     .imageWrapper {
       max-width: 100%;
     }
   
-    .buttonsWrapper {
-      /* justify-content: center; */
-    }
   }
   
   

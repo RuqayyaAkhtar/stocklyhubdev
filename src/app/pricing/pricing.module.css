@@ -21,21 +21,28 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin:4% 0 3% 0;
+    margin:5% auto ;
+    background-color:#e0f7f5 ;
+    padding:0;
+    border-radius: 120px;
+    height: 50px;
+    width: max-content;
   }
   
   .billingToggle button {
     background: none;
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 3rem;
     font-size: 1rem;
     cursor: pointer;
+    color: #00796b;
   }
   
   .billingToggle .active {
-    background-color: #e0f7f5;
-    color: #00796b;
-    border-radius: 5px;
+    background-color: #00796b;
+    color: white;
+    border-radius: 100px;
+    height: 100%;
   }
   
   .pricingCards {
@@ -134,7 +141,7 @@
     }
   
   .greenIcon {
-    color: #00796b; /* Green for the Basic and Premium cards */
+    color: #00796b; 
     margin-right: 0.5rem;
   }
   
@@ -242,11 +249,11 @@
     
  .pricingCards{
   gap: 3rem;
-  /* justify-content: ; */
  }
  .card{
   width: 44%;
  }
+ 
 }
 
 
@@ -285,14 +292,27 @@
       border: none;
       padding: 0;
     }
+      
+  .billingToggle button {
+    padding: 0.5rem 10px;
+  }
   }
   
   @media (max-width: 550px) {
+    .billingToggle{
+      padding-left: 0;
+      padding-right: 0;
+    }
    .billingToggle button{
     font-size: 12px;
+    padding: 0.5rem 10px;
    }
    .billingToggle{
     gap: 1px;
+   }
+   .pricingCards p{
+    width: max-content;
+    font-size: 13px !important;
    }
   }
 
@@ -308,10 +328,14 @@
       width: 100%;
     }
     .pricingSection{
-      padding: 2rem 24px;
+      padding: 2rem 20px;
     }
     .faMain{
-      padding: 1% 24px;
+      padding: 1% 20px;
     }
   }
-  
+  @media (max-width: 350px) {
+    .billingToggle button{
+      padding: 0.5rem 7px;
+     }
+  }

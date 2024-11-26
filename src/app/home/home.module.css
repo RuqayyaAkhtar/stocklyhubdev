@@ -6,7 +6,6 @@
 }
 
 .cont_r {
-  /* border: 1px solid red; */
   width: 52%;
   display: flex;
   align-items: center;
@@ -15,12 +14,10 @@
 }
 
 .logo_im_n {
-  /* border: 1px solid blue; */
   width: 180%;
 }
 
 .contntlft {
-  /* border: 1px solid green; */
   width: 48%;
 }
 
@@ -76,17 +73,15 @@
 }
 
 /* sec2 */
-/* IndustriesSection.module.css */
 
 .container {
-  /* height: 90vh; */
+  height: 92vh;
   background-color: #218172;
   color: #fff;
   padding: 50px 20px 30px 20px;
   display: flex;
-  /* flex-direction: column; */
-  /* align-items: center; */
   justify-content: space-around;
+  margin-bottom: 6%;
 }
 
 .container4 {
@@ -137,7 +132,6 @@
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 20px !important;
   width: 60%;
-  /* max-width: 1200px; */
 }
 
 .card {
@@ -153,6 +147,7 @@
   justify-content: flex-start;
   text-align: center;
   height: max-content;
+  cursor: pointer;
 }
 
 .card:hover {
@@ -165,7 +160,6 @@
 }
 
 .icon {
-  /* font-size: 2rem; */
   color: #218172;
   margin-bottom: 15px;
   display: flex;
@@ -215,11 +209,9 @@
 }
 
 /* sec3 */
-/* components/BenefitsSection.module.css */
 
 .benefitsSection {
   padding: 5% 35px;
-  background-color: #f8f9fa;
 }
 
 .containerS {
@@ -247,7 +239,6 @@
   position: absolute;
   z-index: 1;
   height: 50%;
-  /* width: 80%; */
   min-width: 450px;
   top: 60%;
   left: calc(50% - 225px);
@@ -747,6 +738,7 @@
 @media (max-width:1110px) {
   .container {
     flex-direction: column;
+    height: max-content;
   }
 
   .cardsContainer {

@@ -2,16 +2,14 @@
     display: flex;
     align-items: center;
     padding:45px 60px 55px 60px;
-    background-color: #1d7f72; /* Background color similar to the image */
+    background-color: #1d7f72; 
     color: #fff;
     justify-content: space-between;
-    /* overflow: hidden; */
   }
   
   .textContainer {
     max-width: 550px;
     text-align: left;
-    /* margin-bottom: 2rem; */
     align-self: center;
     justify-self: center;
     height: max-content;
@@ -27,7 +25,7 @@
     font-size: 20px;
     margin-bottom: 1.5rem;
     font-weight: 400;
-    color: #ffffff; /* Slightly lighter text color */
+    color: #ffffff; 
   }
   
   .searchContainer {
@@ -58,7 +56,6 @@
   .searchInput::placeholder{
     color: white;
     font-size: 14px;
-    /* font-weight: lighter; */
   }
   .imageContainer {
     max-width: 400px;
@@ -91,11 +88,10 @@
     font-size: 17px;
     color: #888888;
     background-color: transparent;
-    /* margin-left: 1%; */
   }
   
   .filterButton.active {
-    background-color: #218172; /* Green color for active button */
+    background-color: #218172;
     color: white;
   }
   
@@ -114,10 +110,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
   }
-
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
   .logo {
     width: 80px;
     height: 80px;
@@ -147,7 +146,7 @@
   }
   
   .cardButton {
-    background-color: #218172; /* Button color */
+    background-color: #218172; 
     color: white;
     width: 95%;
     padding: 10px 20px;
@@ -158,7 +157,7 @@
   }
   
   .cardButton:hover {
-    background-color: #1e6d64; /* Darker green on hover */
+    background-color: #1e6d64; 
   }
 
   /* faqs */
@@ -353,10 +352,6 @@
     max-width: none;
     width: 40%;
     }
-
-    /* .faqImage{
-      width: 115%;
-    } */
     .title{
       font-size: 50px !important;
     }
@@ -419,6 +414,10 @@
 }
 .integrationSection {
  padding: 20px;
+}
+.faqContainer{
+  padding-left: 0;
+  padding-right: 0;
 }
 .faqMain{
   padding: 20px;

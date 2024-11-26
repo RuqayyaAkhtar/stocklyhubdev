@@ -136,7 +136,7 @@ const jsx = ({ blog }) => {
               placeholder="Suggest us tool & how can we improve it?"
               className={styles.textarea}
             ></textarea>
-            <button type="submit">Submit</button>
+            <button type="submit" className={styles.submitt}>Submit</button>
           </form>
         </div>
       </section>

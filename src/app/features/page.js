@@ -16,9 +16,6 @@ import { AiFillTool } from "react-icons/ai";
 
 const IndustriesPage = () => {
   
-    // if (!industriesData || industriesData.length === 0) {
-    //     return <p>No industries available</p>; 
-    //   }
       // faqs
 
       const [openIndex, setOpenIndex] = useState(0);
@@ -37,7 +34,7 @@ const IndustriesPage = () => {
         <p className={styles.subtitle}>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
         <div className={styles.searchContainer}>
-          <a href="/bookDemo">
+          <a href="/stocklyhubdev/bookDemo">
           <button>Book Demo</button>
           </a>
         </div>
@@ -82,8 +79,8 @@ const IndustriesPage = () => {
                 <h2 className={styles.Stitle}>{section.title}</h2>
                 <p className={styles.Sdescription}>{section.description}</p>
                 <div className={styles.buttons}>
-                  <button className={styles.bookDemo}>Book Demo</button>
-                  <button className={styles.seePricing}>See Pricing</button>
+                  <a href="/stocklyhubdev/bookDemo" style={{margin:'0'}}><button className={styles.bookDemo}>Book Demo</button></a>
+                  <a href="/stocklyhubdev/pricing" style={{margin:'0'}}><button className={styles.seePricing}>See Pricing</button></a>
                 </div>
               </div>
               <div className={styles.image}>

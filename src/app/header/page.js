@@ -58,20 +58,22 @@ const Header = () => {
                 </button>
               </div>
               <ul className={styles.menuList}>
-                <li><a href="/">Home</a></li>
+                <li><a href="/stocklyhubdev">Home</a></li>
                 <li><a href="/stocklyhubdev/industries">Industries</a></li>
                 <li><a href="/stocklyhubdev/features">Features</a></li>
                 <li><a href="/stocklyhubdev/integration">Integrations</a></li>
                 <li><a href="/stocklyhubdev/pricing">Pricing</a></li>
                 <li><a href="/stocklyhubdev/contacts">Contact Us</a></li>
                 <li><a href="/stocklyhubdev/login">Login</a></li>
-                <li><a href="/stocklyhubdev/terms">Terms And Conditions</a></li>
-                <li><a href="/stocklyhubdev/privacy&policy">Privacy Policy</a></li>
-                <li><a href="/stocklyhubdev/gdpr">GDPR</a></li>
-              </ul>
-              <button className={styles.demoBtn}>
-                <a href="/stocklyhubdev/contact" className={styles.text_light}>Free Demo</a>
+                <li><a href="/stocklyhubdev/blogs">Blogs</a></li>
+                <li><a href="/stocklyhubdev/faqs">Faqs</a></li>
+                <li>
+                <button className={styles.demoBtn2}>
+                <a href="/stocklyhubdev/bookDemo" className={styles.text_light}>Free Demo</a>
               </button>
+                </li>
+              </ul>
+
             </span>
           </div>
         )}

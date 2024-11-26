@@ -35,7 +35,7 @@ export default function Login() {
         {/* Left Section*/}
         <div className={styles["log-right"]}>
           <div className={styles["log-logo"]}>
-            <Link href="/">
+            <Link href="/stocklyhubdev">
               <Image src={logo} alt="Logo" width={100} height={100} />
             </Link>
           </div>
@@ -72,7 +72,7 @@ export default function Login() {
             </div>
             <button type="submit" className={styles["submit"]}>Login</button>
             <p className={styles["signup-p"]}>
-              Don't have an account? <Link href="/signup">Sign up</Link>
+              Don't have an account? <Link href="/stocklyhubdev/signup">Sign up</Link>
             </p>
           </form>
         </div>

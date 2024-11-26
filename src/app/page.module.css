@@ -106,12 +106,22 @@
   border-radius: 5px;
   font-size: 15px;
   font-weight: 400;
-  color: black;
   height: 40px;
+  border: 1px solid #218172;
+  transition: all .3s;
 }
-.demoBtn:hover {
-  background-color:#4D9A8E;
 
+.demoBtn2{
+  background-color:#218172;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  height: 40px;
+  color: white !important;
+  border: 1px solid #218172;
+  transition: all .3s;
 }
 .demoA{
   font-size: 17px;
@@ -148,7 +158,11 @@
   transition: all 1s ease !important;
 
 }
-
+.crossButton{
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
 .crossIcone {
   font-size: 20px;
   color: black;
@@ -160,21 +174,20 @@
 }
 
 .menuList li {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .menuList li a {
   color: black;
   font-size: 16px;
   text-decoration: none;
-
 }
 
 .menuList li a:hover {
   color: #218172;
 }
 .text_light{
-  color: white;
+  color: white !important;
 }
 
 
@@ -198,7 +211,15 @@
   align-items: center;
   justify-content: center;
 }
+.demoBtn:hover {
+  background-color:transparent !important;
+  border: 1px solid #218172 !important;
+  color: #218172 !important;
+}
 
+.demoBtn:hover a{
+  color: #218172 !important;
+}
 
 /* footer */
 

@@ -30,7 +30,7 @@ const faqs = [
 ];
 
 const PricingSection = () => {
-  const [billingCycle, setBillingCycle] = useState('quarterly'); // Default to quarterly
+  const [billingCycle, setBillingCycle] = useState('quarterly');
 
   const pricingData = {
     monthly: { basic: 12, standard: 35, premium: 58 },
