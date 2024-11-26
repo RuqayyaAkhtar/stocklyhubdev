@@ -30,9 +30,9 @@ const Header = () => {
 
       <nav className={styles.nav}>
         <ul className={styles.navList}>
-          <li><a href="stocklyhubdev/industries">Industries</a></li>
-          <li><a href="stocklyhubdev/features">Features</a></li>
-          <li><a href="stocklyhubdev/integration">Integrations</a></li>
+          <li><a href="/stocklyhubdev/industries">Industries</a></li>
+          <li><a href="/stocklyhubdev/features">Features</a></li>
+          <li><a href="/stocklyhubdev/integration">Integrations</a></li>
           <li><a href="stocklyhubdev/pricing">Pricing</a></li>
           <li className="hideItem"><a href="stocklyhubdev/contacts">Contact Us</a></li>
           <li className="hideItem"><a href="stocklyhubdev/login">Login</a></li>
