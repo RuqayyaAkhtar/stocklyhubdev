@@ -13,7 +13,7 @@ const Footer = () => {
         <div className={styles.footerContent}>
           <div className={styles.footerSection1}>
             <div className={styles.logo}>
-              <a href="/">
+              <a href="/stocklyhubdev">
                 <Image
                   src={footerlogo}
                   className={styles.logo_im_n}
@@ -70,9 +70,9 @@ const Footer = () => {
             <div className={`${styles.footerSection} ${styles.footer2}`}>
               <h3>Resources</h3>
               <ul>
-                <li><a href="/blogs">Blogs</a></li>
+                <li><a href="/stocklyhubdev/blogs">Blogs</a></li>
                 <li>Newsletter</li>
-                <li><a href="/faqs">FAQs</a></li>
+                <li><a href="/stocklyhubdev/faqs">FAQs</a></li>
                 <li>Help center</li>
                 <li>Tutorials</li>
                 <li>Support</li>
@@ -98,9 +98,9 @@ const Footer = () => {
 
         <div className={styles.footerBottom2}>
           <div className={styles.termss}>
-            <a href="/privacy-policy" >Privacy & Policy</a>
-            <a href="/GDPR">GDPR</a>
-            <a href="/terms-conditions">Terms & Conditions</a>
+            <a href="/stocklyhubdev/privacy-policy" >Privacy & Policy</a>
+            <a href="/stocklyhubdev/GDPR">GDPR</a>
+            <a href="/stocklyhubdev/terms-conditions">Terms & Conditions</a>
           </div>
         </div>
       </div>
