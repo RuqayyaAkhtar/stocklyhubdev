@@ -184,7 +184,7 @@ const Home = () => {
               <h3>{item.title}</h3>
             </div>
           <p>{item.description}</p>
-          <a href="#" className={styles.learnMore}>Learn More <GoArrowUpRight className={styles.demoA} /></a>
+          <a href="/stocklyhubdev/industries" className={styles.learnMore}>Learn More <GoArrowUpRight className={styles.demoA} /></a>
         </div>
       ))}
     </div>
