@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     padding:45px 0 55px 60px;
-    background-color: #1d7f72; /* Background color similar to the image */
+    background-color: var(--primary-bg-color); 
     color: #fff;
     justify-content: space-between;
     overflow: hidden;
@@ -11,7 +11,6 @@
   .textContainer {
     max-width: 580px;
     text-align: left;
-    /* margin-bottom: 2rem; */
     align-self: center;
     justify-self: center;
     height: max-content;
@@ -105,7 +104,7 @@
     top: 72%;
     left: calc(50% - 150px);
     border-radius: 10px;
-    background-color: #218172;
+    background-color: var(--primary-bg-color);
   }
   .faqsImage{
     max-width: 210px;
@@ -113,7 +112,7 @@
     z-index: 2;
   }
   .chat{
-    color: #218172;
+    color: var(--primary-bg-color);
     text-decoration: underline !important;
   }
   .s2title{
@@ -134,7 +133,7 @@
 
 .faqItem {
   background-color: #fff;
-  border: 1px solid #3da59b;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
   margin-bottom: 20px;
   padding: 15px 15px;
@@ -182,7 +181,7 @@
   width: 90%;
   margin: auto;
   border-radius: 20px;
-  background-color: #218172;
+  background-color: var(--primary-bg-color);
   padding: 2% 0 0% 4%;
   margin-bottom: 5%;
   height: max-content;

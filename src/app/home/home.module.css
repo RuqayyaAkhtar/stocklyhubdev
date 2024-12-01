@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 0 40px;
+  padding: 0 1% 0 5%;
 }
 
 .cont_r {
@@ -10,29 +10,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 .logo_im_n {
-  width: 180%;
+  width: 105%;
+  height: auto !important;
 }
 
 .contntlft {
   width: 48%;
-}
+  }
 
 .bannerH1 {
-  font-size: 34px;
+  font-size: 36px;
+  color: var(--text-color);
 }
 
 .para {
-  font-size: 17px;
+  font-size: 22px;
   margin-top: 4%;
   line-height: 36px;
 }
 
 .btnDiv {
-  margin-top: 4%;
+  margin-top: 8%;
 }
 
 .btnDiv button {
@@ -48,39 +49,38 @@
 .bannerBtn2 {
   margin-left: 30px;
   border: none;
-  background-color: #218172;
+  background-color: var(--primary-bg-color);
   color: white;
-  border: 1px solid #218172;
+  border: 1px solid var(--primary-bg-color);
 }
 
 .bannerBtn {
   margin-left: 30px;
-  border: 1px solid #218172;
+  border: 1px solid var(--primary-bg-color);
   background-color: transparent;
-  color: #218172;
+  color: var(--primary-bg-color);
   margin: 0;
 }
 
 .bannerBtn:hover {
-  background-color: #218172;
+  background-color: var(--primary-bg-color);
   color: white;
 }
 
 .bannerBtn2:hover {
-  border: 1px solid #218172;
+  border: 1px solid var(--primary-bg-color);
   background-color: transparent;
-  color: #218172;
+  color: var(--primary-bg-color);
 }
 
 /* sec2 */
 
 .container {
-  height: 92vh;
-  background-color: #218172;
+  background-color: var(--primary-bg-color);
   color: #fff;
-  padding: 50px 20px 30px 20px;
+  padding: 50px 5% 10px 5%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 6%;
 }
 
@@ -94,7 +94,7 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  width: 35%;
+  width: 30%;
 }
 
 .header h2 {
@@ -124,20 +124,20 @@
 
 .pricingButton:hover {
   background-color: #fff;
-  color: #218172;
+  color: var(--primary-bg-color);
 }
 
 .cardsContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px !important;
-  width: 60%;
+  width: 68%;
 }
 
 .card {
   background-color: #fff;
   color: #333;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 8px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -156,35 +156,36 @@
 
 .card:hover .iconDiv {
   background-color: white;
-  border-color: #218172;
+  border-color: var(--primary-bg-color);
 }
 
 .icon {
-  color: #218172;
+  width: 100%;
+  color: var(--primary-bg-color);
   margin-bottom: 15px;
-  display: flex;
-  justify-content: center;
+  display: flex !important;
   align-items: center;
 }
 
 .card h3 {
-  margin: 10px 0;
-  color: #218172;
-  font-size: 22px;
+  color: var(--primary-bg-color);
+  font-size: 24px;
   font-weight: 500;
   margin-left: 10px;
+  width: max-content;
 }
 
 .card p {
+  margin-top: 2%;
   font-size: 10px;
-  line-height: 1.4;
-  color: #666;
+  line-height: 1rem;
+  color: var(--text-color);
   text-align: left;
 }
 
 .learnMore {
   margin-top: auto;
-  color: #218172;
+  color: var(--primary-bg-color);
   text-decoration: none;
   font-weight: 400;
   font-size: 13px;
@@ -198,24 +199,28 @@
 
 .iconDiv {
   border: 1px solid #bcd9d5;
-  height: 35px;
-  width: 35px;
+  height: 68px;
+  width: 68px;
   border-radius: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease;
   background-color: #bcd9d5;
+  font-size: 40px !important;
+  color: var(--primary-bg-color) !important;
 }
 
 /* sec3 */
 
 .benefitsSection {
-  padding: 5% 35px;
+  width: 90%;
+  margin: auto;
+  padding: 5% 0;
 }
 
 .containerS {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
 }
 
@@ -243,7 +248,7 @@
   top: 60%;
   left: calc(50% - 225px);
   border-radius: 10px;
-  background-color: #218172;
+  background-color: var(--primary-bg-color);
 }
 
 .appImage {
@@ -289,9 +294,9 @@
 
 .primaryButton {
   padding: 10px 25px;
-  background-color: #3da59b;
+  background-color: var(--primary-bg-color);
   color: #fff;
-  border: 2px solid #3da59b;
+  border: 2px solid var(--primary-bg-color);
   border-radius: 5px;
   cursor: pointer;
   transition: all .3s;
@@ -299,22 +304,22 @@
 
 .primaryButton:hover {
   background-color: transparent;
-  color: #3da59b;
-  border: 2px solid #3da59b;
+  color: var(--primary-bg-color);
+  border: 2px solid var(--primary-bg-color);
 }
 
 .secondaryButton {
   padding: 10px 25px;
   background-color: transparent;
-  color: #3da59b;
-  border: 2px solid #3da59b;
+  color: var(--primary-bg-color);
+  border: 2px solid var(--primary-bg-color);
   border-radius: 5px;
   cursor: pointer;
   transition: all .3s;
 }
 
 .secondaryButton:hover {
-  background-color: #3da59b;
+  background-color: var(--primary-bg-color);
   color: white;
 }
 
@@ -341,7 +346,7 @@
   color: white;
   height: 20px !important;
   width: 20px !important;
-  background-color: #218172;
+  background-color: var(--primary-bg-color);
   border-radius: 50%;
   margin-right: 10px;
   display: flex;
@@ -422,7 +427,7 @@
 }
 
 .activeFeature {
-  background-color: #3da59b;
+  background-color: var(--primary-bg-color);
   color: #fff !important;
 
 }
@@ -434,11 +439,11 @@
 /* testimonial */
 
 .testimonialSection {
+  width: 90%;
   padding: 30px 20px;
   text-align: center;
-  border: 1px solid #3da59b;
+  border: 1px solid var(--primary-bg-color);
   border-radius: 10px;
-  max-width: 1200px;
   margin: 3% auto;
   background-color: #fff;
 }
@@ -477,11 +482,11 @@
   border-radius: 10px;
   /* background-color: #e8f5f4; */
   transition: all 1s; 
-  color: #218172 ;
+  color: var(--primary-bg-color) ;
 }
 
 .centerCard {
-  background-color: #218173 !important;
+  background-color: var(--primary-bg-color) !important;
   color: white !important;
 } 
 
@@ -489,14 +494,11 @@
   color: white;
 }
 
-.centerCard span {
-  /* color: #4d9a8e; */
-}
 
 
 .text {
   font-size: 0.9rem;
-  color: #218172;
+  color: var(--primary-bg-color);
   margin-bottom: 20px;
   text-align: left;
 }
@@ -516,12 +518,12 @@
 
 .name {
   font-weight: bold;
-  color:#218172;
+  color:var(--primary-bg-color);
 }
 
 .position {
   font-size: 0.8rem;
-  color: #218172;
+  color: var(--primary-bg-color);
 }
 
 .quoteIcon {
@@ -544,9 +546,9 @@
   height: 30px;
   width: 30px;
   font-size: 1.5rem;
-  color: #218173;
+  color: var(--primary-bg-color);
   cursor: pointer;
-  border: 1px solid #218173;
+  border: 1px solid var(--primary-bg-color);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -556,7 +558,7 @@
 .pageIndicator {
   font-size: 1rem;
   font-weight: bold;
-  color: #218172;
+  color: var(--primary-bg-color);
 }
 
 .testimonialContainer {
@@ -566,17 +568,17 @@
 
 .testimonial {
   flex: 0 0 31.32%;
-  /* Original 3 cards for larger screens */
   max-width: 31.32%;
   box-sizing: border-box;
 }
 
 /* faqs */
 .faqContainer {
-  max-width: 1200px;
+  /* max-width: 1200px; */
+  width: 90% ;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #3da59b;
+  border: 1px solid var(--primary-bg-color);
   border-radius: 8px;
   margin-bottom: 3%;
 }
@@ -591,7 +593,7 @@
 
 .faqItem {
   background-color: #fff;
-  border: 1px solid #3da59b;
+  border: 1px solid var(--primary-bg-color);
   border-radius: 8px;
   margin-bottom: 20px;
   padding: 15px 15px;
@@ -649,11 +651,6 @@
   }
 }
 
-
-/* Existing styles... */
-
-/* Existing styles... */
-
 @media (max-width: 900px) {
   .testimonialContainer {
     display: flex;
@@ -675,16 +672,10 @@
   color: white;
 }
 
-/* home.module.css */
 .slider {
   overflow: hidden;
   width: 100%;
 }
-
-
-
-
-/* Media query to override centerCard styling at 900px or less */
 
 .testimonialContainer {
   display: flex;
@@ -694,45 +685,50 @@
 .testimonial {
   display: flex;
   flex-direction: column;
-  /* or row, depending on your design */
   align-items: center;
-  /* Align items to the center if needed */
 }
 
 /*  */
 
-@media (max-width: 900px) {
-  .centerCard {
-    background-color: #e8f5f4;
-    /* Reset to default background */
-    color: #333 !important;
-    /* Reset text color */
-  }
-
-  .centerCard p {
-    color: #333;
-    /* Reset paragraph color */
-  }
-}
-
 @media (max-width:1260px) {
-  .cardsContainer {
+  /* .cardsContainer {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-
   }
-
+   */
   .card {
     height: max-content;
   }
+  
+}
+@media (max-width:1658px) {
+  .mainhome{
+    padding: 0 2% 0 7%;
+  }
+  .container{
+    /* height: 68vh;   */
+    /* padding: 50px 6% 30px; */
+  }
 
 }
+@media (max-width:1458px) {
+  .mainhome{
+    padding: 0 2% 0 6%;
+  }
+}
 @media (max-width:1210px) {
-.testimonialSection{
-  border: none;
-}
-.faqContainer{
-  border: none;
-}
+  .testimonialSection{
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .faqContainer{
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .mainhome{
+    padding: 0 2% 0 4% ;
+  }
 }
 
 @media (max-width:1110px) {
@@ -740,39 +736,38 @@
     flex-direction: column;
     height: max-content;
   }
-
+  
   .cardsContainer {
-    width: 92%;
+    width: 100%;
     align-self: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-
   }
-
+  
   .card {
     height: max-content;
   }
-
+  
   .header {
-    width: 90%;
+    width: 100%;
     align-self: center;
     align-items: center;
   }
-
+  
   .row {
     flex-direction: column;
   }
-
+  
   .appImage {
     max-width: none;
-    width: 95%;
+    width: 100%;
   }
-.imageWrapper{
-  margin-top: 5%;
-}
+  .imageWrapper{
+    margin-top: 5%;
+  }
   .textWrapper {
     margin-top: 5%;
   }
-
+  
   .imageWrapper::after {
     display: none;
   }
@@ -784,11 +779,11 @@
   }
 
   .mainhome {
-    padding: 30px 20px;
+    padding: 30px 5%;
   }
 
   .contntlft {
-    width: 95%;
+    width: 100%;
   }
   .featuresMain{
     flex-direction: column;
@@ -812,6 +807,16 @@
   }
 }
 
+@media (max-width: 900px) {
+  .centerCard {
+    background-color: #e8f5f4;
+    color: #333 !important;
+  }
+
+  .centerCard p {
+    color: #333;
+  }
+}
 @media (max-width:850px) {
 
   .benefitItem,
@@ -819,7 +824,7 @@
   .featureItems {
     font-size: 13px;
   }
-
+  
   .featureItem {
     align-items: center;
     padding: 5px;
@@ -843,17 +848,13 @@
 .benefitsGrid{
   grid-template-columns: repeat(1, 1fr);
 }
-.benefitsSection{
-  padding:5% 25px ;
-}
+
 .textWrapper{
   padding-left: 0;
 }
-.faqContainer{
-  padding: 20px;
-}
+
 .container{
-  padding: 50px 10px;
+  padding: 50px 5%;
 }
 }
 

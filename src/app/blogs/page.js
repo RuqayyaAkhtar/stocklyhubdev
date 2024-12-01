@@ -2,7 +2,7 @@
 import React from 'react';
 import styles from './blog.module.css';
 import Image from 'next/image';
-import faqImage from '../images/image (10).png'; 
+import faqImage from '../images/image (10).png';
 import Header from '../header/page';
 import Footer from '../footer/page';
 import { GrFacebookOption } from "react-icons/gr";
@@ -13,8 +13,7 @@ import { RxCopy } from "react-icons/rx";
 import Link from "next/link";
 import blogData from "./data";
 import TestimonialSlider from '../home/testimonial';
-// import { useBlogContext } from '../context/BlogContext';
-// import { useBlogContext } from '../../context/BlogContext';
+
 
 const Blogs = () => {
 
@@ -32,9 +31,9 @@ const Blogs = () => {
           </p>
           <div className={styles.searchContainer}>
             <span>Share it:</span>
-            {[<GrFacebookOption />,<RiTwitterXFill />,<FaLinkedinIn />,<FaPinterestP />,<RxCopy />, ].map((icons, index) => (
+            {[<GrFacebookOption />, <RiTwitterXFill />, <FaLinkedinIn />, <FaPinterestP />, <RxCopy />,].map((icons, index) => (
               <div key={index} className={styles.linkItem}>
-                 {icons}
+                {icons}
               </div>
             ))}
           </div>
@@ -44,43 +43,26 @@ const Blogs = () => {
         </div>
       </section>
       {/* section2 */}
-  
-    <section className={styles.blogSection}>
-      {/* <div className={styles.blogContainer}>
-        {blogData.map((blog) => (
-      
-          <div key={blog.id} className={styles.blogCard}>
-              <div className={styles.Imagecontainer}>
-          <Image src={blog.bannerImage} alt={blog.title} className={styles.blogImage}  
-          />
-          </div>
-            <div className={styles.blogContent}>
-              <h3>{blog.title}</h3>
-              <p>{blog.description}</p>
-              <p className={styles.authorP}>{blog.moreInfo}</p>
-            
-            </div>
-          </div>
-        
-        ))}
-      </div> */}
-     <div className={styles.blogContainer}>
-  {blogData.map((blog) => (
-    <Link key={blog.id} href={`/blogs/${blog.id}`} className={styles.blogCard}>
-      <div className={styles.Imagecontainer}>
-        <Image src={blog.bannerImage} alt={blog.title} className={styles.blogImage} />
-      </div>
-      <div className={styles.blogContent}>
-        <h4 className={styles.cardtitle}>{blog.title}</h4>
-        <p className={styles.carddescription}>{blog.description}</p>
-        <p className={styles.authorP}>{blog.moreInfo}</p>
-      </div>
-    </Link>
-  ))}
-</div>
 
-    </section>
-<TestimonialSlider/>
+      <section className={styles.blogSection}>
+
+        <div className={styles.blogContainer}>
+          {blogData.map((blog) => (
+            <Link key={blog.id} href={`/blogs/${blog.id}`} className={styles.blogCard}>
+              <div className={styles.Imagecontainer}>
+                <Image src={blog.bannerImage} alt={blog.title} className={styles.blogImage} />
+              </div>
+              <div className={styles.blogContent}>
+                <h4 className={styles.cardtitle}>{blog.title}</h4>
+                <p className={styles.carddescription}>{blog.description}</p>
+                <p className={styles.authorP}>{blog.moreInfo}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+      </section>
+      <TestimonialSlider />
       <Footer />
     </>
   );

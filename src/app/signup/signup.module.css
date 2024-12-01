@@ -4,30 +4,22 @@
     padding:0 20px 20px 20px; 
     padding-top: 0 !important;
     flex-wrap: wrap;
-    /* font-family: Arial, sans-serif; */
     border-top: 1px solid #BCD9D5;
     margin: 0;
   }
   
-  /* .leftSection,
-  .rightSection {
-    flex: 1;
-    background-color: #fff;
-    padding: 20px;
-    padding-top: 0;
-  } */
    .leftSection{
-     border: 1px solid #218172;
+     border: 1px solid var(--primary-bg-color);
      border-radius: 8px;   
      margin-top: 2%;
    }
  
   .rightSection{
-    border-left: 1px solid #218172;
+    border-left: 1px solid var(--primary-bg-color);
     border-radius: 0 !important;
   }
   .borderedSection {
-    border: 1px solid #2a8678;
+    border: 1px solid var(--primary-bg-color);
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -62,14 +54,14 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #2a8678;
+    border: 1px solid var(--primary-bg-color);
     border-radius: 5px;
     font-size: 14px;
     color: #333;
   }
   
   .inputField:focus {
-    border-color: #218172; /* Focus color */
+    border-color: var(--primary-bg-color); /* Focus color */
     outline: none;
   }
   
@@ -89,7 +81,7 @@
     border: none;
     cursor: pointer;
     font-size: 18px;
-    color: #2a8678;
+    color: var(--primary-bg-color);
   }
   
   .terms {
@@ -105,7 +97,7 @@
     cursor:  pointer;
   }
   .terms a{
-    color: #2a8678;
+    color: var(--primary-bg-color);
   }
   
   .buttons {
@@ -115,7 +107,7 @@
   }
   
   .buttons button {
-    background-color: #2a8678;
+    background-color: var(--primary-bg-color);
     color: white;
     border: none;
     padding: 10px;
@@ -137,7 +129,7 @@
   }
   
   .loginLink a {
-    color: #218172 !important;
+    color: var(--primary-bg-color) !important;
     text-decoration: none;
   }
   
@@ -146,18 +138,17 @@
   }
   
   .request{
-    border: 1px solid #218172 !important;
+    border: 1px solid var(--primary-bg-color) !important;
     background-color: transparent !important;
-    color: #218172 !important;
+    color: var(--primary-bg-color) !important;
   }
-  /* Responsive Design */
   @media (max-width: 768px) {
     .signupPage {
       flex-direction: column;
     }
   
     .formGroup {
-      gap: 15px; /* Reduce gap on smaller screens */
+      gap: 15px;
     }
   }
   .signupPage {
@@ -177,7 +168,7 @@
   }
   
   .borderedSection {
-    border: 1px solid #2a8678;
+    border: 1px solid var(--primary-bg-color);
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -215,14 +206,14 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #2a8678;
+    border: 1px solid var(--primary-bg-color);
     border-radius: 5px;
     font-size: 14px;
     color: #333;
   }
   
   .inputField:focus {
-    border-color: #218172; /* Focus color */
+    border-color: var(--primary-bg-color); 
     outline: none;
   }
   
@@ -244,7 +235,7 @@
   -webkit-appearance: none;
   width: 12px !important;
   height: 12px;
-  border: 1px solid #218172 !important; 
+  border: 1px solid var(--primary-bg-color) !important; 
   border-radius: 2px !important; 
   background-color: transparent !important; 
   cursor: pointer;
@@ -253,8 +244,8 @@
 
 
 .radioo:checked{
-  background-color: #218172 !important; 
-  border-color: #218172 !important;
+  background-color: var(--primary-bg-color) !important; 
+  border-color: var(--primary-bg-color) !important;
 }
 
 .radioo:checked::after {
@@ -270,14 +261,13 @@
 
   .inputLabel1{
     margin-top: 2% !important;
-    /* border: 1px solid red; */
     font-size: 12px;
   }
   
   .passwordInput {
     display: flex;
     align-items: center;
-    border: 1px solid #2a8678;
+    border: 1px solid var(--primary-bg-color);
     border-radius: 3px;
     justify-content: space-between;
     padding: 0 8px 0 0;
@@ -294,7 +284,7 @@
     cursor: pointer;
   }
   .eyeIcon.active{
-    color: #218172;
+    color: var(--primary-bg-color);
   }
   .terms {
     margin: 20px 0;
@@ -311,7 +301,7 @@
   }
   
   .buttons button {
-    background-color: #2a8678;
+    background-color: var(--primary-bg-color);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -345,12 +335,12 @@
     }
     .rightSection{
       width: 100%;
-      border: 1px solid #218172;
+      border: 1px solid var(--primary-bg-color);
       border-radius: 8px !important;
     }
   
     .formGroup {
-      gap: 15px; /* Reduce gap on smaller screens */
+      gap: 15px; 
     }
   
     .halfWidth {

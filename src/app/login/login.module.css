@@ -3,14 +3,12 @@
     display: flex;
     height: 100vh;
   }
-  
-  /* Left Section (Image Slider) */
-/* Left Section (Image Slider) */
+
 .log-left {
     width: 50%;
     height: 100%;
     overflow: hidden;
-    background-color: #218172; /* Green background */
+    background-color: var(--primary-color);
     padding: 20px;
     position: relative;
     color: white;
@@ -29,25 +27,6 @@
     position: relative;
   }
   
-  /* .l1::before, .l2::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    filter: blur(12px);
-  }
-  
-  .l1::before {
-    background-image: url("../images/FoneD.jpeg");
-  }
-  
-  .l2::before {
-    background-image: url("../images/Project FoneD  2.jpg");
-  } */
-  
   .log-img-main {
     position: absolute;
     display: flex;
@@ -55,9 +34,7 @@
     justify-content: center;
     width: 100%;
     height: 85%;
-    /* background: linear-gradient(rgba(255, 255, 255, 0.413), rgba(255, 255, 255, 0.394)); */
     border-radius: 20px;
-    /* box-shadow: 0px 2px 15px 0px #02180d6d; */
   }
   .log-img-main::before{
     content: '';
@@ -67,8 +44,6 @@
     border: 30px solid #4D9A8E;
     border-radius: 50%;
     z-index: 1;
-    /* border-bottom: none; */
-    /* box-shadow: 0px 0px 10px 0px #BCD9D5 inset; */
   }
  
   .log-img-main img {
@@ -141,7 +116,7 @@
   .inputMain{
     width: 400px;
     padding: 10px 15px;
-    border: 1px solid #218172;
+    border: 1px solid var(--primary-color);
     font-size: 15px;
     border-radius: 4px;
     background-color: #e6f6f4ef;
@@ -162,7 +137,7 @@ width: 100%;
     cursor: pointer;
   }
   .eyeIcon.active{
-    color: #218172;
+    color: var(--primary-color);
   }
   .radi-inp {
     width: 75%;
@@ -186,7 +161,7 @@ width: 100%;
     -webkit-appearance: none;
     width: 12px !important;
     height: 12px;
-    border: 1px solid #218172 !important; 
+    border: 1px solid var(--primary-color) !important; 
     border-radius: 2px !important; 
     background-color: transparent !important; 
     cursor: pointer;
@@ -195,8 +170,8 @@ width: 100%;
   
   
   .radioo:checked{
-    background-color: #218172 !important; 
-    border-color: #218172 !important;
+    background-color: var(--primary-color) !important; 
+    border-color: var(--primary-color) !important;
   }
   
   .radioo:checked::after {
@@ -212,12 +187,12 @@ width: 100%;
   
 
   .forgot{
-    color: #218172;
+    color: var(--primary-color);
   }
   .submit {
     width: 400px;
     font-size: 15px;
-    background-color: #218172;
+    background-color: var(--primary-color);
     color: white;
     font-weight: 500;
     padding: 10px 0;
@@ -233,7 +208,7 @@ width: 100%;
   }
   
   .signup-p a {
-    color: #218172;
+    color: var(--primary-color);
     text-decoration: none;
   }
   
@@ -241,17 +216,16 @@ width: 100%;
   /* Slider Container */
   .log-slide {
     display: flex;
-    width: 300%; /* Adjusted for two slides */
+    width: 300%; 
     height: 100%;
     animation: slides 8s ease infinite;
     justify-content: space-around;
   }
   .l-slides {
-    width: 29%; /* Each slide takes half the width of the parent container */
+    width: 29%; 
     position: relative;
   }
   .slidText{
-    /* border: 1px solid red; */
     text-align: center;
     position: absolute;
     bottom: 3%;
@@ -263,18 +237,17 @@ width: 100%;
     font-size: 13px;
     margin-top: 2%;
   }
-  /* Navigation Dots */
- /* Navigation Dots */
+
 .dots {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top:30px;
-    position: absolute; /* Position dots over the slider */
+    position: absolute; 
     bottom:1%;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 10; /* Ensure dots are above the slider */
+    z-index: 10; 
   }
   
   .dot {
@@ -288,7 +261,7 @@ width: 100%;
   }
   
   .dot.active {
-    background-color: white; /* White dot for active slide */
+    background-color: white; 
   }
   
   /* media */
@@ -382,7 +355,6 @@ width: 100%;
 }
 .log-right{
   width: 55%;
-  /* margin: auto; */
 }
 .submit{
   width: 100%;

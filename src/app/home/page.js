@@ -1,6 +1,5 @@
 'use client'
 import React from 'react';
-import { FaPhoneAlt, FaEnvelope, FaWhatsapp, FaLinkedin, FaFacebookF } from 'react-icons/fa';
 '../globals.css';
 import { useState } from 'react';
 import styles from './home.module.css';
@@ -99,7 +98,10 @@ const Home = () => {
       <div className={styles.cardsContainer}>
         {industriesData.map((industry, index) => (
           <div key={index} className={styles.card}>
-            <div className={styles.icon}><div className={styles.iconDiv}>{industry.icon}</div><h3>{industry.title}</h3></div>
+            <div className={styles.icon}>
+              <div className={styles.iconDiv}>{industry.icon}</div>
+              <h3>{industry.title}</h3>
+              </div>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
             <a href="/stocklyhubdev/industries" className={styles.learnMore}>Learn More <GoArrowUpRight className={styles.demoA}/></a>
           </div>
@@ -109,7 +111,6 @@ const Home = () => {
     {/* sec3 */}
     <section className={styles.benefitsSection}>
       <div className={styles.containerS}>
-        {/* Row with Image and Text */}
         <div className={styles.row}>
           <div className={styles.imageWrapper}>
             <Image src={ rectagle} alt="App Screenshot" className={styles.appImage} />

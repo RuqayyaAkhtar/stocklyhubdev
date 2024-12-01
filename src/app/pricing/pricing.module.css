@@ -35,11 +35,11 @@
     padding: 0.5rem 3rem;
     font-size: 1rem;
     cursor: pointer;
-    color: #00796b;
+    color: var(--primary-bg-color);
   }
   
   .billingToggle .active {
-    background-color: #00796b;
+    background-color: var(--primary-bg-color);
     color: white;
     border-radius: 100px;
     height: 100%;
@@ -53,7 +53,7 @@
   }
   
   .card {
-    border: 1px solid #00796b;
+    border: 1px solid var(--primary-bg-color);
     padding: 1.5rem 0;
     border-radius: 13px;
     width: 100%;
@@ -82,7 +82,7 @@
     margin-top: 10px !important;
   }
   .standard {
-    background-color: #00796b;
+    background-color: var(--primary-bg-color);
     color: #fff;
   }
   
@@ -117,7 +117,7 @@
   }
   
   .signupButton, .upgradeButton {
-    background-color: #00796b;
+    background-color: var(--primary-bg-color);
     color: #fff;
     padding: 0.75rem;
     border: none;
@@ -130,18 +130,18 @@
   }
   .signupButton {
       background-color:transparent;
-      color: #00796b;
-      border:1px solid #00796b;
+      color: var(--primary-bg-color);
+      border:1px solid var(--primary-bg-color);
     }
 
 .standard button{
       background-color: white;
       border: 1px solid white;
-      color: #00796b;
+      color: var(--primary-bg-color);
     }
   
   .greenIcon {
-    color: #00796b; 
+    color: var(--primary-bg-color); 
     margin-right: 0.5rem;
   }
   
@@ -172,7 +172,7 @@
   max-width: 1150px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #3da59b;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
   margin-bottom: 3%;
 }
@@ -187,7 +187,7 @@
 
 .faqItem {
   background-color: #fff;
-  border: 1px solid #3da59b;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
   margin-bottom: 20px;
   padding: 15px 15px;
