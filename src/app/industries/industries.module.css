@@ -74,7 +74,7 @@
     justify-content: space-between;
     background-color: #fff;
     border-radius: 8px;
-    padding: 1.5rem 0;
+    padding: 1.8rem 0;
   }
 
   
@@ -116,7 +116,6 @@
     width: 100% !important;
     height: auto;
     border-radius: 8px;
-    /* object-fit: cover; */
   }
   
   .textWrapper {
@@ -141,6 +140,7 @@
     word-spacing: 4px;
     line-height: 25px;
   }
+ 
   
   .buttonsWrapper {
     display: flex;
@@ -310,23 +310,6 @@
     font-size: 0.85rem;
   }
 }
-
-@media (max-width:1610px) {
-  .imageWrapper {
-    max-width: 28% ; 
-  }
-  .textWrapper{
-    width: 62%;
-  }
-}
-@media (max-width:1310px) {
-  .imageWrapper {
-    max-width: 32% ; 
-  }
-  .textWrapper{
-    width: 60%;
-  }
-}
 @media (max-width:1810px) {
   .imageWrapper {
     max-width: 40% ; 
@@ -335,40 +318,59 @@
     width: 55%;
   }
 }
-@media (max-width:1210px) {
-  .testimonialSection{
-    border: none;
+
+@media (max-width:1650px) {
+  .imageWrapper {
+    width: 30% ; 
   }
-  .faqContainer{
-    border: none;
-    padding: 20px 0;
+
+  .textWrapper{
+    width: 60%;
   }
-  .filterButton{
-    padding: 8px 15px;
+  .sectionHeading{
+    font-size: 42px;
   }
+  .sectionSubheading{
+    font-size: 22px;
+    line-height: 30px;
   }
+  .iconDiv{
+    height: 55px;
+    width: 55px;
+  }
+}
+@media (max-width:1550px) {
+  .imageWrapper {
+    width: 35% !important; 
+  }
+  .textWrapper{
+    width: 58% !important;
+  }
+}
+@media (max-width:1350px) {
+  .imageWrapper {
+    width: 38% ; 
+  }
+  
+  .textWrapper{
+    width: 55%;
+  }
+  .sectionHeading{
+    font-size: 35px;
+  }
+  .sectionSubheading{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .iconDiv{
+    height: 50px;
+    width: 50px;
+  }
+}
+
 
   /* Responsive Styles */
-  @media (max-width: 980px) {
-    .industryCard {
-      flex-direction: column;
-    }
-    .contRight{
-      width: 60%;
-    }
-    .rowReverse {
-      flex-direction: column; 
-    }
 
-    .textWrapper{
-      margin-top: 7%;
-      width: 100%;
-    }
-    .imageWrapper {
-      max-width: 100%;
-    }
-  
-  }
     @media (max-width:1000px) {
     .textContainer{
      width: 50%;
@@ -389,10 +391,9 @@
     }
     .contRight{
       margin-top: 20px;
-    }
-    .contRight{
       width: 60%;
     }
+
     }
   @media (max-width:900px) {
 .imageContainer{
@@ -404,6 +405,44 @@
 
 
   }
+  @media (max-width:1300px) {
+    .imageWrapper {
+      width: 45% !important; 
+    }
+    .textWrapper{
+      width: 55% !important;
+    }
+  }
+  @media (max-width:1210px) {
+    .testimonialSection{
+      border: none;
+    }
+    .faqContainer{
+      border: none;
+      padding: 20px 0;
+    }
+    .filterButton{
+      padding: 8px 15px;
+    }
+    .rowReverse {
+      flex-direction: column ; 
+    }
+    .industryCard {
+      flex-direction: column;
+    }
+    .textWrapper{
+      margin-top: 7%;
+      width: 100% !important;
+    }
+    .imageWrapper {
+     max-width: none;
+     width: 100% !important;
+    }
+    .industryImage{
+      width: 100% !important;
+      height: auto !important;
+    }
+    }
  
 @media (max-width: 650px) {
 .banner{
