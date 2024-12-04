@@ -19,6 +19,9 @@
   --input-padding: 10px;
   --input-border-color: #218172;
   --border-color:#2a8678;
+  --heading-size:64px;
+  --banner-para-size:24px;
+  --banner-para-LH:42px;
 }
 
 :root {

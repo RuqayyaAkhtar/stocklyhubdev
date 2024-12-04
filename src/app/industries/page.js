@@ -49,7 +49,7 @@ const IndustriesPage = () => {
           key={index}
           className={`${styles.industryCard} ${
             index % 2 === 0 ? styles.rowReverse : ''
-          }`} // Alternates 
+          }`} //...
         >
           <div className={styles.imageWrapper}>
           <Image

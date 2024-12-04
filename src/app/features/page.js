@@ -84,7 +84,7 @@ const IndustriesPage = () => {
                 </div>
               </div>
               <div className={styles.image}>
-                <Image src={section.image} alt={section.title} height={300} />
+                <Image src={section.image} className={styles.Cimage} alt={section.title} height={300} />
               </div>
             </div>
             {/* Cards */}

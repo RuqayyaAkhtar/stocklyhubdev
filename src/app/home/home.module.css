@@ -468,19 +468,21 @@
 .testimonialContainer {
   display: flex;
   transition: transform 0.3s ease-in-out !important;
+  /* gap: 10px; */
+  /* justify-content: space-between; */
+  /* gap:calc(33.333% - 30.334%); */
 }
 
 
 
 .testimonial {
-  flex: 0 0 31.32%;
-  max-width: 31.32%;
+  flex: 0 0 30.333%;
+  max-width: 30.333%;
   box-sizing: border-box;
   padding: 20px;
-  margin: 0 10px;
+  margin: 0 calc(33.333% - 31.833%);
   border: 1px solid #00a99d;
   border-radius: 10px;
-  /* background-color: #e8f5f4; */
   transition: all 1s; 
   color: var(--primary-bg-color) ;
 }
@@ -497,7 +499,7 @@
 
 
 .text {
-  font-size: 0.9rem;
+  font-size: 13px;
   color: var(--primary-bg-color);
   margin-bottom: 20px;
   text-align: left;
@@ -561,20 +563,10 @@
   color: var(--primary-bg-color);
 }
 
-.testimonialContainer {
-  display: flex;
-  transition: transform 0.3s ease-in-out;
-}
 
-.testimonial {
-  flex: 0 0 31.32%;
-  max-width: 31.32%;
-  box-sizing: border-box;
-}
 
 /* faqs */
 .faqContainer {
-  /* max-width: 1200px; */
   width: 90% ;
   margin: 0 auto;
   padding: 20px;
@@ -691,10 +683,6 @@
 /*  */
 
 @media (max-width:1260px) {
-  /* .cardsContainer {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-   */
   .card {
     height: max-content;
   }
@@ -703,10 +691,6 @@
 @media (max-width:1658px) {
   .mainhome{
     padding: 0 2% 0 7%;
-  }
-  .container{
-    /* height: 68vh;   */
-    /* padding: 50px 6% 30px; */
   }
 
 }
