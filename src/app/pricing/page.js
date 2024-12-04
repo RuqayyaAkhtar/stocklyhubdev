@@ -33,15 +33,15 @@ const PricingSection = () => {
   const [billingCycle, setBillingCycle] = useState('quarterly');
 
   const pricingData = {
-    monthly: { basic: 12, standard: 35, premium: 58 },
-    quarterly: { basic: 12, standard: 26, premium: 46 },
-    yearly: { basic: 12, standard: 21, premium: 38 },
+    monthly: { free:0 ,basic: 12, standard: 35, premium: 58 },
+    quarterly: { free:0 ,basic: 12, standard: 26, premium: 46 },
+    yearly: { free:0 ,basic: 12, standard: 21, premium: 38 },
   };
 
   const originalPrices = {
-    monthly: { basic: 15, standard: 39, premium: 65 },
-    quarterly: { basic: 15, standard: 35, premium: 58 },
-    yearly: { basic: 15, standard: 30, premium: 48 },
+    monthly: { free:0 ,basic: 15, standard: 39, premium: 65 },
+    quarterly: { free:0 ,basic: 15, standard: 35, premium: 58 },
+    yearly: { free:0 ,basic: 15, standard: 30, premium: 48 },
   };
   // faqs
   const [openIndex, setOpenIndex] = useState(0);
@@ -83,8 +83,28 @@ const PricingSection = () => {
       <div className={styles.pricingCards}>
         <div className={styles.card}>
         
+          <h3>Free</h3>
+          <p className={styles.Cpara}>Best plan for start-up business</p>
+             <div className={styles.price}>
+            ${pricingData[billingCycle].free}
+          </div>
+          <ul>
+            <li><FaCheckCircle className={styles.greenIcon} /> 3 Days Trial</li>
+            <li><FaCheckCircle className={styles.greenIcon} /> Limited Features</li>
+            <li><FaCheckCircle className={styles.greenIcon} /> Unlimited Invoice & Tickets / Month</li>
+            <li><FaCheckCircle className={styles.greenIcon} /> One User Account</li>
+            <li><FaCheckCircle className={styles.greenIcon} /> Reports</li>
+            <li><FaCheckCircle className={styles.greenIcon} /> FAQs Jobs</li>
+            <li><FaCheckCircle className={styles.greenIcon} /> Purchase Order</li>
+            <li><FaCheckCircle className={styles.greenIcon} /> Customer Portal</li>
+            <li><FaCheckCircle className={styles.greenIcon} /> Lead</li>
+          </ul>
+          <button className={styles.signupButton}>Sign up</button>
+        </div>
+    
+        <div className={styles.card}>
           <h3>Basic</h3>
-          <p>Best plan for start-up business</p>
+          <p className={styles.Cpara}>Best plan for start-up business</p>
              <div className={styles.price}>
             <span className={styles.originalPrice}>${originalPrices[billingCycle].basic}</span>
             ${pricingData[billingCycle].basic}
@@ -127,7 +147,7 @@ const PricingSection = () => {
           <button className={styles.upgradeButton}>Upgrade Now</button>
           <p className={styles.para}>Try 1 mouth Trail for Free</p>
         </div>
-
+{/*  */}
         <div className={styles.card}>
           <h3>Premium</h3>
           <p>Best plan for Professional business</p>

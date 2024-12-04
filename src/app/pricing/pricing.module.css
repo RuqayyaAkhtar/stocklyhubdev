@@ -1,11 +1,12 @@
 .pricingSection {
     text-align: center;
-    padding: 2rem;
+    width: 90%;
+    margin: auto;
   }
   
   .pricingSection h2 {
     font-size: 56px;
-    margin-bottom: 0.5rem;
+    margin: 3rem 0 1rem 0;
     color: #252A2A;
   }
   
@@ -21,7 +22,7 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin:5% auto ;
+    margin:5% auto 0 ;
     background-color:#e0f7f5 ;
     padding:0;
     border-radius: 120px;
@@ -47,21 +48,21 @@
   
   .pricingCards {
     display: flex;
-    gap: 3rem;
-    justify-content: center;
+    gap:calc(25% - 23.7%);
     flex-wrap: wrap;
+    width: 100%;
   }
   
   .card {
     border: 1px solid var(--primary-bg-color);
     padding: 1.5rem 0;
     border-radius: 13px;
-    width: 100%;
-    max-width: 350px;
+    width: 24%;
     text-align: left;
     transition: box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
   }
   .card:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -74,12 +75,12 @@
   .card p{
     font-size: 15px;
     margin: 0 0 0 30px;
-
+    width: max-content !important;
   }
   .para{
     font-weight:300;
     text-align: center;
-    margin-top: 10px !important;
+    padding-top: 10px ;
   }
   .standard {
     background-color: var(--primary-bg-color);
@@ -169,8 +170,9 @@
   
 /* faqs */
 .faqContainer {
-  max-width: 1150px;
-  margin: 0 auto;
+  /* max-width: 1150px; */
+  width: 90%;
+  margin: 4% auto 0;
   padding: 20px;
   border: 1px solid var(--border-color);
   border-radius: 8px;
@@ -226,7 +228,7 @@
   width: 85%;
 }
 .faMain{
-  padding: 1% 30px;
+  padding: 1% 0;
 }
 
 @media (max-width: 1230px) {
@@ -236,30 +238,27 @@
     width: 30%;
   }
   .faMain{
-    padding: 1% 45px;
+    padding: 1% 0;
+  }
+    
+  .pricingCards {
+    gap:calc(30% - 25.1%);
   }
 }
-@media (max-width: 1050px) {
-    
- .pricingCards{
-  gap: 2rem;
- }
-}
+
 @media (max-width: 950px) {
-    
- .pricingCards{
-  gap: 3rem;
- }
  .card{
-  width: 44%;
+  width: 48%;
  }
- 
+ .pricingCards {
+  gap:calc(48% - 44.1%);
+}
 }
 
 
 @media (max-width: 768px) {
   .faqContainer {
-    padding: 10px;
+    padding: 10px 0;
   }
 
   .fatitle {
@@ -281,10 +280,12 @@
     .pricingCards {
       flex-direction: column;
       align-items: center;
+      gap:0 ;
     }
     .card{
-      width: 90%;
+      width: 100%;
     }
+ 
     .pricingSection p{
       width: 95%;
     }
@@ -328,10 +329,10 @@
       width: 100%;
     }
     .pricingSection{
-      padding: 2rem 20px;
+      padding: 2rem 0;
     }
     .faMain{
-      padding: 1% 20px;
+      padding: 1% 0;
     }
   }
   @media (max-width: 350px) {
