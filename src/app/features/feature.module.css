@@ -81,45 +81,19 @@
 .buttons {
     display: flex;
     gap: 1rem;
-    margin-bottom: 7%;
-    margin-top: 3%;
+     margin:3% 0;
 }
 
-.tabButton {
-    padding: 0.5rem 1rem;
-    border: none;
-    background-color: transparent;
-    color: #666;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: 0.3s;
-    border: 1px solid #909090;
-}
-
-.tabButton.active {
-    background-color: var(--primary-bg-color);
-    color: #fff;
-}
 
 .sectionContent {
     margin-top: 2rem;
 }
 
-.section {
+.section.normal {
     margin-bottom: 3rem;
 
 }
 
-.contentRow {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 3rem 0 !important;
-}
-
-.contentRow.zigzag {
-    flex-direction: row-reverse;
-}
 
 .content {
     width: 50%;
@@ -134,18 +108,6 @@
     width: 100% !important;
     height: auto;
     border-radius: 8px;
-}
-
-.contentRow {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-bottom: 2rem;
-
-}
-
-.contentRow.zigzag {
-    flex-direction: row-reverse !important;
 }
 
 
@@ -245,6 +207,46 @@
 }
 
 /*  */
+
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.section.normal .contentRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 1rem ;
+    flex-direction: row ; 
+  }
+  .section.zigzag .contentRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 1rem ;
+    flex-direction: row-reverse;
+  }
+  .tabButton {
+    padding: 0.5rem 1rem;
+    border: 1px solid #909090;
+    background-color: transparent;
+    color: #666;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  .tabButton.active {
+    background-color: var(--primary-bg-color);
+    color: white;
+    border-color: #2a8678;
+  }
+  .sectionContent {
+    margin-top: 1rem;
+    border-radius: 8px;
+  }
+
 
 /* faqs */
 .faqMain {
@@ -384,15 +386,14 @@ font-size: 18px;
 line-height: 30px;
 margin-top: 4%;
 }
-.buttons{
-    margin-top: 7%;
-}
+
 .image{
     width: 30%;
 }
 .content{
     width: 55%;
 }
+
 }
 
 @media (max-width:1510px) {
@@ -401,17 +402,21 @@ margin-top: 4%;
     }
 }
 @media (max-width:1330px) {
+ .Sdescription{
+    font-size: 17px;
+    line-height: 27px !important;
+    margin: 4% 0;
+ }
+}
+
+@media (max-width:1240px) {
  .image{
     width: 38%;
  }
  .content{
     width: 55%;
  }
- .Sdescription{
-    font-size: 17px;
-    line-height: 27px !important;
-    margin: 4% 0;
- }
+
 }
 
 
@@ -464,17 +469,16 @@ margin-top: 4%;
         transition: transform 0.3s, box-shadow 0.3s;
     }
 
-    .contentRow {
-        flex-direction: column-reverse;
-        align-items: center;
-    }
+    .section.normal .contentRow {
+      flex-direction: column-reverse;
+      }
 
     .content,
     .image {
         width: 100%;
     }
 
-    .contentRow.zigzag {
+    .section.zigzag .contentRow{
         flex-direction: column-reverse !important;
     }
 

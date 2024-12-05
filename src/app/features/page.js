@@ -67,76 +67,46 @@ const IndustriesPage = () => {
 
   {/* Section Content */}
   <div className={styles.sectionContent}>
-    {activeSection === 'All'
-      ? sectionData.map((section, index) => (
-          <div
-            key={section.id}
-            className={`${styles.section} ${index % 2 === 0 ? styles.normal : styles.zigzag}`}
-          >
-            {/* Content Row */}
-            <div className={`${styles.contentRow} ${index % 2 === 0 ? styles.normal : styles.zigzag}`}>
-              <div className={styles.content}>
-                <h2 className={styles.Stitle}>{section.title}</h2>
-                <p className={styles.Sdescription}>{section.description}</p>
-                <div className={styles.buttons}>
-                  <a href="/stocklyhubdev/bookDemo" style={{margin:'0'}}><button className={styles.bookDemo}>Book Demo</button></a>
-                  <a href="/stocklyhubdev/pricing" style={{margin:'0'}}><button className={styles.seePricing}>See Pricing</button></a>
-                </div>
-              </div>
-              <div className={styles.image}>
-                <Image src={section.image} className={styles.Cimage} alt={section.title} height={300} />
-              </div>
-            </div>
-            {/* Cards */}
-            <div className={styles.cards}>
-              {section.cards.map((card) => (
-                <div key={card.id} className={styles.card}>
-                  <div className={styles.iconContainer}>
-                    <AiFillTool className={styles.icon} />
-                  </div>
-                  <h3>{card.title}</h3>
-                  <p>{card.description}</p>
-                </div>
-              ))}
+  {sectionData
+    .filter((section) => activeSection === 'All' || section.id === activeSection)
+    .map((section, index) => (
+      <div
+        key={section.id}
+        className={`${styles.section} ${index % 2 === 0 ? styles.normal : styles.zigzag}`}
+      >
+        {/* Content Row */}
+        <div className={styles.contentRow}>
+          <div className={styles.content}>
+            <h2 className={styles.Stitle}>{section.title}</h2>
+            <p className={styles.Sdescription}>{section.description}</p>
+            <div className={styles.buttons}>
+              <a href="/stocklyhubdev/bookDemo" style={{ margin: '0' }}>
+                <button className={styles.bookDemo}>Book Demo</button>
+              </a>
+              <a href="/stocklyhubdev/pricing" style={{ margin: '0' }}>
+                <button className={styles.seePricing}>See Pricing</button>
+              </a>
             </div>
           </div>
-        ))
-      : sectionData
-          .filter((section) => section.id === activeSection)
-          .map((section, index) => (
-            <div
-              key={section.id}
-              className={`${styles.section} ${index % 2 === 0 ? styles.normal : styles.zigzag}`}
-            >
-              {/* Content Row */}
-              <div className={`${styles.contentRow} ${index % 2 === 0 ? styles.normal : styles.zigzag}`}>
-                <div className={styles.content}>
-                  <h2>{section.title}</h2>
-                  <p>{section.description}</p>
-                  <div className={styles.buttons}>
-                    <button className={styles.bookDemo}>Book Demo</button>
-                    <button className={styles.seePricing}>See Pricing</button>
-                  </div>
-                </div>
-                <div className={styles.image}>
-                  <Image src={section.image} alt={section.title} height={300}/>
-                </div>
+          <div className={styles.image}>
+            <Image src={section.image} className={styles.Cimage} alt={section.title} height={300} />
+          </div>
+        </div>
+        {/* Cards */}
+        <div className={styles.cards}>
+          {section.cards.map((card) => (
+            <div key={card.id} className={styles.card}>
+              <div className={styles.iconContainer}>
+                <AiFillTool className={styles.icon} />
               </div>
-              {/* Cards */}
-              <div className={styles.cards}>
-                {section.cards.map((card) => (
-                  <div key={card.id} className={styles.card}>
-                    <div className={styles.iconContainer}>
-                      <AiFillTool className={styles.icon} />
-                    </div>
-                    <h3>{card.title}</h3>
-                    <p>{card.description}</p>
-                  </div>
-                ))}
-              </div>
+              <h3>{card.title}</h3>
+              <p>{card.description}</p>
             </div>
           ))}
-  </div>
+        </div>
+      </div>
+    ))}
+</div>
 </div>
 
 
