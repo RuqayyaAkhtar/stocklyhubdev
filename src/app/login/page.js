@@ -35,7 +35,7 @@ export default function Login() {
         {/* Left Section*/}
         <div className={styles["log-right"]}>
           <div className={styles["log-logo"]}>
-            <Link href="/stocklyhubdev">
+            <Link href="/">
               <Image src={logo} alt="Logo" width={100} height={100} />
             </Link>
           </div>
