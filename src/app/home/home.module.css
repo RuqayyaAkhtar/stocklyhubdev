@@ -22,7 +22,7 @@
   }
 
 .bannerH1 {
-  font-size: 36px;
+  font-size: 46px;
   color: var(--text-color);
 }
 
@@ -698,6 +698,11 @@
 @media (max-width:1458px) {
   .mainhome{
     padding: 0 2% 0 6%;
+  }
+}
+@media (max-width:1358px) {
+  .bannerH1{
+    font-size: 36px;
   }
 }
 @media (max-width:1210px) {
