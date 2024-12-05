@@ -78,7 +78,7 @@
 .container {
   background-color: var(--primary-bg-color);
   color: #fff;
-  padding: 50px 5% 10px 5%;
+  padding: 20px 5% 0 5%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 6%;
@@ -90,7 +90,7 @@
 
 .header {
   text-align: center;
-  margin-bottom: 30px;
+  margin: 30px 0; 
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -127,11 +127,16 @@
   color: var(--primary-bg-color);
 }
 
+.cardsTop {
+  width: 68%;
+}
+
 .cardsContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px !important;
-  width: 68%;
+  width: 100%;
+  transform: translateY(30px);
 }
 
 .card {
@@ -220,7 +225,6 @@
 }
 
 .containerS {
-  /* max-width: 1200px; */
   margin: 0 auto;
 }
 
@@ -468,9 +472,6 @@
 .testimonialContainer {
   display: flex;
   transition: transform 0.3s ease-in-out !important;
-  /* gap: 10px; */
-  /* justify-content: space-between; */
-  /* gap:calc(33.333% - 30.334%); */
 }
 
 
@@ -715,16 +716,18 @@
   }
 }
 
-@media (max-width:1110px) {
+@media (max-width:1160px) {
   .container {
     flex-direction: column;
     height: max-content;
   }
-  
+  .cardsTop{
+    width: 100%;
+  }
   .cardsContainer {
     width: 100%;
     align-self: center;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
   }
   
   .card {
@@ -813,6 +816,9 @@
     align-items: center;
     padding: 5px;
   }
+  .cardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (max-width:800px) {
 .benefitsGrid{
@@ -825,6 +831,13 @@
   grid-template-columns: repeat(3, 1fr);
 }
 }
+@media (max-width:550px) {
+  .cardsContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
 @media (max-width:500px) {
 .featuresGrid{
   grid-template-columns: repeat(2, 1fr);

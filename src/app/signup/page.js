@@ -110,7 +110,7 @@ const SignupForm = () => {
         <div className={styles.terms}>
           <label>
             <input type="checkbox" className={styles.radioo}/> Accept the Terms & Conditions!{" "}
-            <a href="#terms">Learn More*</a>
+            <a href="/stocklyhubdev/terms-conditions">Learn More*</a>
           </label>
           <label>
             <input type="checkbox" className={styles.radioo} /> Lorem ipsum Email notification.{" "}
@@ -118,11 +118,11 @@ const SignupForm = () => {
           </label>
         </div>
         <div className={styles.buttons}>
-          <a href="/bookDemo"><button className={styles.request}>Request Demo</button></a>
+          <a href="stocklyhubdev/bookDemo"><button className={styles.request}>Request Demo</button></a>
             <button>Submit</button>
         </div>
         <div className={styles.loginLink}>
-          Already have an account? <a href="/login">Log in</a>
+          Already have an account? <a href="stocklyhubdev/login">Log in</a>
         </div>
       </div>
     </div>

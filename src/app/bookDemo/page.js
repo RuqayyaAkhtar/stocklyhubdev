@@ -60,9 +60,10 @@ const page = () => {
           <Image src={faqImage} alt="FAQ Overview" className={styles.faqImage} />
         </div>
       </section>
-      {/*  */}
+      {/* section */}
+
       <div className={`${styles.container} ${styles.faqmain}`}>
-      <div className={`${styles.leftSection} ${styles.textContainer} ${styles.textContainer2}`}>
+      <div className={`${styles.leftSection} ${styles.textContainer2}`}>
       <div className={styles.framImage}>
     <Image src={framImage} alt="side image" className={styles.faqsImage} />
     </div>
@@ -88,7 +89,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className={`${styles.rightSection} ${styles.imageContainer} ${styles.imageContainer2}`}>
+      <div className={`${styles.rightSection} ${styles.imageContainer2}`}>
         <form className={styles.form}>
           <div className={styles.row}>
             <label className={styles.label}>
@@ -110,7 +111,8 @@ const page = () => {
               <div className={styles.phoneContainer}>
                 <select className={styles.countryCode}>
                   <option value="PK">PK +92</option>
-                  {/* Add more country options here */}
+                  <option value="PK">UK +44</option>
+                  
                 </select>
                 <input type="text" placeholder="92 000 0000000" className={styles.phoneInput} />
               </div>
@@ -140,27 +142,27 @@ const page = () => {
           {/* business type */}
             <h4 className={styles.h4}>Select Business Type</h4>
           <div className={styles.businessType}>
-            <label><input type="checkbox" /> Retail</label>
-            <label><input type="checkbox" /> Wholesale</label>
-            <label><input type="checkbox" /> Recycle</label>
-            <label><input type="checkbox" /> Repair</label>
-            <label><input type="checkbox" /> Trade-in</label>
-            <label><input type="checkbox" /> BuyBack</label>
+            <label><input type="checkbox" className={styles.radioo}/> Retail</label>
+            <label><input type="checkbox" className={styles.radioo}/> Wholesale</label>
+            <label><input type="checkbox" className={styles.radioo}/> Recycle</label>
+            <label><input type="checkbox" className={styles.radioo}/> Repair</label>
+            <label><input type="checkbox" className={styles.radioo}/> Trade-in</label>
+            <label><input type="checkbox" className={styles.radioo}/> BuyBack</label>
           </div>
           {/* product type */}
           <h3 className={styles.h3}>Select Product Type</h3>
           <div className={styles.businessType}>
-            <label><input type="checkbox" /> Mobile Phone</label>
-            <label><input type="checkbox" /> Smartwatch</label>
-            <label><input type="checkbox" /> Laptops</label>
-            <label><input type="checkbox" /> Computer</label>
-            <label><input type="checkbox" /> Tablets</label>
-            <label><input type="checkbox" /> Spare Parts</label>
-            <label><input type="checkbox" /> Drones</label>
-            <label><input type="checkbox" /> Accessories</label>
-            <label><input type="checkbox" /> Macbook</label>
-            <label><input type="checkbox" /> Gaming Consoles</label>
-            <label><input type="checkbox" /> Others</label>
+            <label><input type="checkbox" className={styles.radioo}/> Mobile Phone</label>
+            <label><input type="checkbox" className={styles.radioo}/> Smartwatch</label>
+            <label><input type="checkbox" className={styles.radioo}/> Laptops</label>
+            <label><input type="checkbox" className={styles.radioo}/> Computer</label>
+            <label><input type="checkbox" className={styles.radioo}/> Tablets</label>
+            <label><input type="checkbox" className={styles.radioo}/> Spare Parts</label>
+            <label><input type="checkbox" className={styles.radioo}/> Drones</label>
+            <label><input type="checkbox" className={styles.radioo}/> Accessories</label>
+            <label><input type="checkbox" className={styles.radioo}/> Macbook</label>
+            <label><input type="checkbox" className={styles.radioo}/> Gaming Consoles</label>
+            <label><input type="checkbox" className={styles.radioo}/> Others</label>
           </div>
           <button type="submit" className={styles.submitButton}>Book Demo</button>
         </form>

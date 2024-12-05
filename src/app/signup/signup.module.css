@@ -1,8 +1,8 @@
 .signupPage {
     display: flex;
     gap: 20px;
-    padding:0 20px 20px 20px; 
-    padding-top: 0 !important;
+    /* padding:0 20px 20px 20px;  */
+    padding: 20px;
     flex-wrap: wrap;
     border-top: 1px solid #BCD9D5;
     margin: 0;
@@ -11,12 +11,12 @@
    .leftSection{
      border: 1px solid var(--primary-bg-color);
      border-radius: 8px;   
-     margin-top: 2%;
+     /* margin-top: 2%; */
    }
  
   .rightSection{
-    border-left: 1px solid var(--primary-bg-color);
-    border-radius: 0 !important;
+    border: 1px solid var(--primary-bg-color);
+    /* border-radius: 0 !important; */
   }
   .borderedSection {
     border: 1px solid var(--primary-bg-color);
@@ -61,7 +61,7 @@
   }
   
   .inputField:focus {
-    border-color: var(--primary-bg-color); /* Focus color */
+    border-color: var(--primary-bg-color); 
     outline: none;
   }
   
@@ -163,7 +163,7 @@
   .rightSection {
     flex: 1;
     background-color: #fff;
-    padding: 20px;
+    padding: 20px;  
     border-radius: 8px;
   }
   
@@ -335,8 +335,6 @@
     }
     .rightSection{
       width: 100%;
-      border: 1px solid var(--primary-bg-color);
-      border-radius: 8px !important;
     }
   
     .formGroup {

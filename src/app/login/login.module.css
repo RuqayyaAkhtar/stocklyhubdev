@@ -1,4 +1,4 @@
-/* General Styling */
+
 .login-main {
     display: flex;
     height: 100vh;
@@ -57,12 +57,12 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding-left: 8%;
+    padding:3% 6%;
     height: 100%;
   }
   
   .log-logo {
-    width: 140px;
+    width: 160px;
     margin-top: 5%;
   }
   
@@ -75,6 +75,7 @@
     margin-top: 25px;
     font-weight: bold;
     color: #252A2A;
+    font-size: 36px;
   }
   
   .log-right p {
@@ -95,7 +96,7 @@
   }
   
   .login-form input {
-    width: 300px;
+    width: 100%;
     font-size: 15px;
     outline: none;
     border-radius: 4px;
@@ -114,7 +115,7 @@
     color: #888888;
   }
   .inputMain{
-    width: 400px;
+    width: 100%;
     padding: 10px 15px;
     border: 1px solid var(--primary-color);
     font-size: 15px;
@@ -125,7 +126,7 @@
     justify-content: space-between;
   }
   .inputMain input{
-width: 100%;
+   width: 100% !important;
   }
   .passMain{
     display: flex;
@@ -140,7 +141,7 @@ width: 100%;
     color: var(--primary-color);
   }
   .radi-inp {
-    width: 75%;
+    width: 100%;
     display: flex;
     font-size: 13px;
     align-items: center;
@@ -190,7 +191,7 @@ width: 100%;
     color: var(--primary-color);
   }
   .submit {
-    width: 400px;
+    width: 100%;
     font-size: 15px;
     background-color: var(--primary-color);
     color: white;
@@ -306,12 +307,7 @@ width: 100%;
     .dots{
       bottom: 2%;
     }
-    .inputMain{
-      width: 350px;
-    }
-    .submit{
-      width: 350px;
-    }
+
   }
 
   @media (max-width: 900px) {
@@ -330,12 +326,6 @@ width: 100%;
 
   @media (max-width: 800px) {
 
- .inputMain{
-  width: 300px;
-}
-.submit{
-  width: 300px;
-}
 .slidText{
   font-size: 12px;
 }
