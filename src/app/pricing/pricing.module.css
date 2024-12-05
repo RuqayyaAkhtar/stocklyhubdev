@@ -59,13 +59,14 @@
     border-radius: 13px;
     width: 24%;
     text-align: left;
-    transition: box-shadow 0.3s ease;
+    transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
     margin-top: 30px;
   }
   .card:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform:translateY(-5px) ;
   }
   .card h3{
     font-size: 32px;
