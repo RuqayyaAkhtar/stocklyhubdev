@@ -241,7 +241,7 @@
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1250px;
   margin: 0 auto;
   /* padding: 20px 5%; */
 }
@@ -395,13 +395,21 @@
 
 @media (max-width:1650px) {
   .header{
-    padding: 0 8%;
+    padding: 0 9%;
   }
 }
+
+@media (max-width:1530px) {
+  .header{
+    padding: 0 5%;
+  }
+}
+
 @media (max-width:1400px) {
   .container{
      padding: 20px 5%;
   }
+  
 }
 @media (max-width:1158px) {
  .nav {

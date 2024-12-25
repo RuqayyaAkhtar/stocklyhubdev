@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-around;
   /* padding: 0 1% 0 5%; */
-  max-width: 1300px;
+  max-width: 1250px;
   margin: auto;
 }
 
@@ -88,7 +88,7 @@
   display: flex;
   justify-content: space-between;
   /* border: 2px solid red; */
-  max-width: 1300px;
+  max-width: 1250px;
   margin: auto;
   margin-bottom: 6%;
 }
@@ -231,7 +231,7 @@
 }
 .benefitsSection {
   /* width: 90%; */
-  max-width: 1300px;
+  max-width: 1250px;
   margin: auto;
   padding: 5% 0;
 }
@@ -456,7 +456,7 @@
 
 .testimonialSection {
   /* width: 90%; */
-  max-width: 1300px;
+  max-width: 1250px;
   /* padding: 30px 20px; */
   padding: 30px 10px;
   text-align: center;
@@ -583,7 +583,7 @@
 /* faqs */
 .faqContainer {
   /* width: 90% ; */
-  max-width: 1300px;
+  max-width: 1250px;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid var(--primary-bg-color);
@@ -709,16 +709,37 @@
   }
 
 }
-@media (max-width:1458px) {
+@media (max-width:1400px) {
   .mainhome{
-    /* padding: 0 4% 0 6%; */
+    padding: 0 5% 0 6%;
   }
-}
-@media (max-width:1402px) {
   .bannerH1{
     font-size: 36px;
   }
+  .container{
+    padding:20px 5% ;
+  }
+  .benefitsSection {
+    padding: 5%;
+  }
+  .faqContainer{
+   width: 80% ;
+  }
+  .testimonialSection{
+   width:80%;
+  }
+
 }
+
+@media (max-width:1310px) {
+  .faqContainer{
+    width: 90% ;
+   }
+   .testimonialSection{
+    width:90%;
+   }
+}
+
 @media (max-width:1210px) {
   .testimonialSection{
     border: none;
