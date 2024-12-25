@@ -88,6 +88,7 @@ const Home = () => {
             </div>
         </div>
         {/*  */}
+      <div className={styles.containerMain}>
       <section className={styles.container}>
       <div className={styles.header}>
         <h2>Industries</h2>
@@ -110,7 +111,9 @@ const Home = () => {
       </div>
       </div>
     </section>
+    </div>
     {/* sec3 */}
+    <div className={styles.containerMain1}>
     <section className={styles.benefitsSection}>
       <div className={styles.containerS}>
         <div className={styles.row}>
@@ -168,7 +171,9 @@ const Home = () => {
         </div>
       </div>
     </section>
+    </div>
     {/* sec4 */}
+    <div className={styles.containerMain}>
     <section className={`${styles.container} ${styles.container4}`}>
       <div className={styles.header}>
         <h2>Lorem Ipsum</h2>
@@ -190,9 +195,11 @@ const Home = () => {
     </div>
  </div>
     </section>
+    </div>
     {/* testimonial */}
     <TestimonialSlider/>
     {/* faqs */}
+    <div className={styles.containerMain1}>
     <div className={styles.faqContainer}>
       <h2 className={styles.fatitle}>Frequently Asked Questions</h2>
       {faqs.map((faq, index) => (
@@ -209,7 +216,7 @@ const Home = () => {
         </div>
       ))}
     </div>
-
+</div>
      </div>
   );
 };

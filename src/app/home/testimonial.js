@@ -68,6 +68,7 @@ const TestimonialSlider = () => {
   }
 
   return (
+    <div className={styles.containerMain1}>
     <section className={styles.testimonialSection}>
       <h4 className={styles.subtitle}>Testimonials</h4>
       <h2 className={styles.title}>What the People Thinks About Us</h2>
@@ -111,6 +112,7 @@ const TestimonialSlider = () => {
         <button onClick={nextSlide} className={styles.navButton}><RiArrowRightWideFill /></button>
       </div>
     </section>
+    </div>
   );
 };
 

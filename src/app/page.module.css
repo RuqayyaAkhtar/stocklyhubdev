@@ -1,6 +1,8 @@
 
 /* header */
 .header {
+  /* max-width: 1500px; */
+  margin: auto;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -8,10 +10,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 3rem;
-  box-shadow: rgba(17, 17, 26, 0.1) 1px 1px 0px;
+  padding: 0 5%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
   background-color: white;
-  
 }
 /* search */
 .searchPopup {
@@ -240,9 +241,9 @@
 }
 
 .container {
-  /* max-width: 1200px; */
+  max-width: 1300px;
   margin: 0 auto;
-  padding: 20px 5%;
+  /* padding: 20px 5%; */
 }
 
 .footerContent {
@@ -392,6 +393,16 @@
 
 /* media */
 
+@media (max-width:1650px) {
+  .header{
+    padding: 0 8%;
+  }
+}
+@media (max-width:1400px) {
+  .container{
+     padding: 20px 5%;
+  }
+}
 @media (max-width:1158px) {
  .nav {
    display: none;

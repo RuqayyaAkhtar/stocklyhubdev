@@ -2,7 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 0 1% 0 5%;
+  /* padding: 0 1% 0 5%; */
+  max-width: 1300px;
+  margin: auto;
 }
 
 .cont_r {
@@ -74,13 +76,20 @@
 }
 
 /* sec2 */
+.containerMain{
+  width: 100%;
+  background-color: var(--primary-bg-color);
 
+}
 .container {
   background-color: var(--primary-bg-color);
   color: #fff;
-  padding: 20px 5% 0 5%;
+  padding: 20px 0 0 0;
   display: flex;
   justify-content: space-between;
+  /* border: 2px solid red; */
+  max-width: 1300px;
+  margin: auto;
   margin-bottom: 6%;
 }
 
@@ -217,9 +226,12 @@
 }
 
 /* sec3 */
-
+.containerMain1{
+  width: 100%;
+}
 .benefitsSection {
-  width: 90%;
+  /* width: 90%; */
+  max-width: 1300px;
   margin: auto;
   padding: 5% 0;
 }
@@ -443,8 +455,10 @@
 /* testimonial */
 
 .testimonialSection {
-  width: 90%;
-  padding: 30px 20px;
+  /* width: 90%; */
+  max-width: 1300px;
+  /* padding: 30px 20px; */
+  padding: 30px 10px;
   text-align: center;
   border: 1px solid var(--primary-bg-color);
   border-radius: 10px;
@@ -568,7 +582,8 @@
 
 /* faqs */
 .faqContainer {
-  width: 90% ;
+  /* width: 90% ; */
+  max-width: 1300px;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid var(--primary-bg-color);
@@ -687,17 +702,16 @@
   .card {
     height: max-content;
   }
-  
 }
 @media (max-width:1658px) {
   .mainhome{
-    padding: 0 2% 0 7%;
+    /* padding: 0 5% 0 7%; */
   }
 
 }
 @media (max-width:1458px) {
   .mainhome{
-    padding: 0 2% 0 6%;
+    /* padding: 0 4% 0 6%; */
   }
 }
 @media (max-width:1402px) {

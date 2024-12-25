@@ -99,7 +99,7 @@ const PricingSection = () => {
             <li><FaCheckCircle className={styles.greenIcon} /> Customer Portal</li>
             <li><FaCheckCircle className={styles.greenIcon} /> Lead</li>
           </ul>
-          <button className={styles.signupButton}>Sign up</button>
+        <a href="/stocklyhubdev/signup"> <button className={styles.signupButton}>Sign up</button></a>
         </div>
     
         <div className={styles.card}>
@@ -120,7 +120,7 @@ const PricingSection = () => {
             <li><FaCheckCircle className={styles.greenIcon} /> Customer Portal</li>
             <li><FaCheckCircle className={styles.greenIcon} /> Lead</li>
           </ul>
-          <button className={styles.signupButton}>Sign up</button>
+          <a href="/stocklyhubdev/signup"><button className={styles.signupButton}>Sign up</button></a>
         </div>
 
         <div className={`${styles.card} ${styles.standard}`}>
@@ -144,7 +144,7 @@ const PricingSection = () => {
             <li><FaCheckCircle className={styles.whiteIcon} /> Customer Portal</li>
             <li><FaCheckCircle className={styles.whiteIcon} /> Lead</li>
           </ul>
-          <button className={styles.upgradeButton}>Upgrade Now</button>
+         <a href="/stocklyhubdev/signup"> <button className={styles.upgradeButton}>Upgrade Now</button></a>
           <p className={styles.para}>Try 1 mouth Trail for Free</p>
         </div>
 {/*  */}
@@ -171,7 +171,7 @@ const PricingSection = () => {
             <li><FaCheckCircle className={styles.greenIcon} /> Job Timer</li>
             <li><FaCheckCircle className={styles.greenIcon} /> Cash Register</li>
           </ul>
-          <button className={styles.upgradeButton}>Upgrade Now</button>
+          <a href="/stocklyhubdev/signup"><button className={styles.upgradeButton}>Upgrade Now</button></a>
         </div>
       </div>
     </div>
