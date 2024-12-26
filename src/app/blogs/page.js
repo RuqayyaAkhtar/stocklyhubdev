@@ -20,6 +20,7 @@ const Blogs = () => {
   return (
     <>
       <Header />
+      <div className={styles.containerMain}>
       <section className={styles.banner}>
         <div className={styles.textContainer}>
           <h1 className={styles.title}>4 ways to diversify your income stream as a freelancer or agency</h1>
@@ -42,8 +43,9 @@ const Blogs = () => {
           <Image src={faqImage} alt="FAQ Overview" className={styles.faqImage} />
         </div>
       </section>
-      {/* section2 */}
+      </div>
 
+      {/* section2 */}
       <section className={styles.blogSection}>
 
         <div className={styles.blogContainer}>

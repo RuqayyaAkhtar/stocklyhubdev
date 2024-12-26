@@ -11,6 +11,7 @@ const PrivacyAndPolicy = () => {
     return (
         <>
             <Header />
+            <section className={styles.containerMain}>
             <section className={styles.banner}>
                 <div className={styles.textContainer}>
                     <h1 className={styles.title}>Privacy Policy</h1>
@@ -30,6 +31,7 @@ const PrivacyAndPolicy = () => {
                 <div className={styles.imageContainer}>
                     <Image src={faqImage} alt="FAQ Overview" className={styles.faqImage} />
                 </div>
+            </section>
             </section>
             <div className={styles.container}>
                 <h1 className={styles.titlee}>Privacy Policy</h1>

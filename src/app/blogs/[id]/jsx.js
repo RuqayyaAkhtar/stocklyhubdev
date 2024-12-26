@@ -16,6 +16,7 @@ const jsx = ({ blog }) => {
   return (
     <div>
         <Header />
+      <div className={styles.containerMain}>
       <section className={styles.banner}>
         <div className={styles.textContainer}>
           <h1 className={styles.title}>{blog.title}</h1>
@@ -41,6 +42,7 @@ const jsx = ({ blog }) => {
           />
         </div>
       </section>
+</div>
 
       <section className={styles.tableOfContentSection}>
         <div className={styles.contentContainer}>

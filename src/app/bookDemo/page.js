@@ -49,6 +49,7 @@ const page = () => {
   return (
     <>
       <Header/>
+      <div className={styles.containerMain}>
       <section className={styles.banner}>
         <div className={styles.textContainer}>
           <h1 className={styles.title}>Meeting with a Stocklyhub Product Specialist (Global Team)</h1>
@@ -60,6 +61,7 @@ const page = () => {
           <Image src={faqImage} alt="FAQ Overview" className={styles.faqImage} />
         </div>
       </section>
+</div>
       {/* section */}
 
       <div className={`${styles.container} ${styles.faqmain}`}>

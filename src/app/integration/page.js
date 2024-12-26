@@ -83,6 +83,7 @@ const Integrations = () => {
     return (
         <>
             <Header />
+            <div className={styles.containerMain}>
             <section className={styles.banner}>
                 <div className={styles.textContainer}>
                     <h1 className={styles.title}>Integrations</h1>
@@ -102,7 +103,9 @@ const Integrations = () => {
                     <Image src={faqImage} alt="FAQ Overview" className={styles.faqImage} />
                 </div>
             </section>
+            </div>
             {/* section2 */}
+            <div className={styles.containerMain1}>
             <div className={styles.integrationSection}>
                 <div className={styles.buttonsContainer}>
                     {categories.map((category) => (
@@ -128,7 +131,7 @@ const Integrations = () => {
                     ))}
                 </div>
             </div>
-
+</div>
             
             {/* faqs */}
             <div className={styles.faqMain}>
@@ -162,8 +165,7 @@ const Integrations = () => {
    </div>
     </div>
     </div>
-    
-            <Footer />
+   <Footer />
         </>
     );
 };

@@ -2,7 +2,7 @@
 import React from 'react';
 import styles from './industries.module.css';
 import Image from 'next/image';
-import faqImage from '../images/Group 1171278128.png'; 
+import faqImage from '../images/Group 1171278124.png'; 
 import Header from '../header/page';
 import { CiSearch } from "react-icons/ci";
 import { GoPlus } from "react-icons/go";
@@ -27,6 +27,7 @@ const IndustriesPage = () => {
   return (
     <>
     <Header/>
+    <div className={styles.containerMain}>
     <section className={styles.banner}>
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Industries</h1>
@@ -42,7 +43,9 @@ const IndustriesPage = () => {
         <Image src={faqImage} alt="FAQ Overview" className={styles.faqImage} />
       </div>
     </section>
+    </div>
     {/* section2 */}
+    <div className={styles.containerMain1}>
     <div className={styles.sectionWrapper}>
       {industriesData.map((industry, index) => (
         <div
@@ -74,7 +77,7 @@ const IndustriesPage = () => {
         </div>
       ))}
     </div>
-
+</div>
         
             {/* faqs */}
             <div className={styles.faqMain}>

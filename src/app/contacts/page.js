@@ -15,9 +15,11 @@ const page = () => {
   return (
     <>
       <Header/>
+      <div className={styles.containerMain}>
       <div className={styles.contactBanner}>
        <h1>Contact Our Team</h1>
        <p>Got any questions about the product or scaling on our platform? We’re here to help. Chat to pur friendly team 24/7 and get onboard in less than 5 minutes</p>
+      </div>
       </div>
       {/*  */}
       <div className={`${styles.container} ${styles.faqmain}`}>
@@ -98,6 +100,7 @@ const page = () => {
       </div>
     </div>
     {/*  */}
+      
     <div className={styles.contactMainn}>
     <div className={styles.contactBottom}>
    <div className={styles.contLeft}>

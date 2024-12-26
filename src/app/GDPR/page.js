@@ -11,6 +11,7 @@ const GDPR = () => {
     return (
         <>
             <Header />
+            <section className={styles.containerMain}>
             <section className={styles.banner}>
                 <div className={styles.textContainer}>
                     <h1 className={styles.title}>General Data Protection Regulation (GDPR)</h1>
@@ -30,6 +31,7 @@ const GDPR = () => {
                 <div className={styles.imageContainer}>
                     <Image src={faqImage} alt="FAQ Overview" className={styles.faqImage} />
                 </div>
+            </section>
             </section>
             <div className={styles.container}>
                 <h1 className={styles.titlee}>GDPR</h1>

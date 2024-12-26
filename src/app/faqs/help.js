@@ -6,7 +6,7 @@ import faqImage from '../images/Rectangle 34625834.png'; // Replace with the cor
 
 const Help = () => {
   return (
-    <div>
+    <div className={styles2.containerMain1}>
       <div className={styles2.main}>
         <div className={styles2.text}>
             <h1>Still have Questions?</h1>

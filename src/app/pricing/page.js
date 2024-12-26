@@ -53,6 +53,7 @@ const PricingSection = () => {
   return (
     <>
     <Header/>
+    <div className={styles.containerMain}>
     <div className={styles.pricingSection}>
       <h2>Choose your right plan!</h2>
       <p>Select from best plans, ensuring a perfect match. Need more or less? Customize your subscription for seamless fit.</p>
@@ -175,8 +176,9 @@ const PricingSection = () => {
         </div>
       </div>
     </div>
+    </div>
     {/*  */}
-    <div className={styles.faMain}>
+    <div className={styles.faqMain}>
     <div className={styles.faqContainer}>
       <h2 className={styles.fatitle}>Frequently Asked Questions</h2>
       {faqs.map((faq, index) => (

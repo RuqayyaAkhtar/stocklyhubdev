@@ -1,534 +1,616 @@
 .banner {
-    display: flex;
-    align-items: center;
-    padding: 5%;
-    background-color: var(--primary-bg-color); 
-    color: #fff;
-    justify-content: space-between;
-  }
-  
-  .textContainer {
-    max-width: 550px;
-    text-align: left;
-    align-self: center;
-    justify-self: center;
-    height: max-content;
-  }
-  
-  .title {
-    font-size: 64px !important;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  .subtitle {
-    font-size: 24px;
-    margin-bottom: 1.5rem;
-    font-weight: 400;
-    color: #ffffff; 
-  }
-  
-  .searchContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid white;
-    width: 83%;
-    padding-left: 15px;
-    border-radius: 4px;
-   margin-top: 10%;
-  }
-  .searchIcon{
-    font-size: 22px;
-  }
-  
-  .searchInput {
-    width: 100%;
-    max-width: 400px;
-    padding: 0.8rem 7px;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    background-color: transparent;
-    outline: none;
-    color: white;
-  }
-  .searchInput::placeholder{
-    color: white;
-    font-size: 14px;
-  }
-  .imageContainer {
-    max-width: 400px;
-    width: 100%;
-    margin-top: 2rem;
-  }
-  
-  .faqImage {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* section2 */
-  .integrationSection {
-    width: 90%;
-    margin: auto;
-    padding: 50px 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .buttonsContainer {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .filterButton {
-    padding: 8px 24px;
-    border: 1px solid #888888;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 17px;
-    color: #888888;
-    background-color: transparent;
-  }
-  
-  .filterButton.active {
-    background-color: var(--primary-bg-color);
-    color: white;
-  }
-  
-  .cardsContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 55px;
-    margin-top: 4%;
-  }
-  
-  .card {
-    background-color: #E6F6F4;
-    padding: 40px 30px;
-    border-radius: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: transform 0.3s, box-shadow 0.3s;
-    cursor: pointer;
-  }
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-  }
-  .logo {
-    width:100px;
-    height: 100px;
-    margin-bottom: 10px;
-  }
-  .imagemain{
-   height: 130px;
-   width: 130px;
-   border-radius: 5px;
-   background-color: white;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-  }
-
-  .cardTitle {
-    margin: 20px 0 10px 0;
-    font-size: 22px;
-    font-weight: 600;
-  }
-  
-  
-  .cardDescription {
-    margin: 10px 0;
-    font-size: 14px;
-    color: #1E1E1E;
-  }
-  
-  .cardButton {
-    background-color: var(--primary-bg-color); 
-    color: white;
-    width: 95%;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-  }
-  
-  .cardButton:hover {
-    background-color: #1e6d64; 
-  }
-
-  /* faqs */
-.faqMain{
-  width: 90%;
+  display: flex;
+  align-items: center;
+  padding: 5% 0;
+  background-color: var(--primary-bg-color);
+  color: #fff;
+  justify-content: space-between;
+  max-width: 1250px;
   margin: auto;
+}
+
+.containerMain {
+  width: 100%;
+  background-color: var(--primary-bg-color);
+}
+
+.textContainer {
+  max-width: 550px;
+  text-align: left;
+  align-self: center;
+  justify-self: center;
+  height: max-content;
+}
+
+.title {
+  font-size: 64px !important;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  width: 83%;
+  padding-left: 15px;
+  border-radius: 4px;
+  margin-top: 10%;
+}
+
+.searchIcon {
+  font-size: 22px;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.8rem 7px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
+
+.searchInput::placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+.imageContainer {
+  max-width: 400px;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.faqImage {
+  width: 100%;
+  height: auto;
+}
+
+/* section2 */
+.containerMain {
+  width: 100%;
+}
+
+.integrationSection {
+  /* width: 90%; */
+  max-width: 1250px;
+  margin: auto;
+  padding: 50px 0;
+  font-family: Arial, sans-serif;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.filterButton {
+  padding: 8px 24px;
+  border: 1px solid #888888;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  color: #888888;
+  background-color: transparent;
+}
+
+.filterButton.active {
+  background-color: var(--primary-bg-color);
+  color: white;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 55px;
+  margin-top: 4%;
+}
+
+.card {
+  background-color: #E6F6F4;
+  padding: 40px 30px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.imagemain {
+  height: 130px;
+  width: 130px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardTitle {
+  margin: 20px 0 10px 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+
+.cardDescription {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #1E1E1E;
+}
+
+.cardButton {
+  background-color: var(--primary-bg-color);
+  color: white;
+  width: 95%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cardButton:hover {
+  background-color: #1e6d64;
+}
+
+/* faqs */
+.faqMain {
+  max-width: 1250px;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.faqContainer {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  margin-bottom: 3%;
+}
+
+.fatitle {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.faqItem {
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.faqItem.active {
+  background-color: #f8fafc;
+}
+
+.questionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.faicon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.answer {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 8px;
+  color: #666;
+  width: 85%;
+}
+
+
+@media (max-width: 768px) {
+  .faqContainer {
     padding: 10px 0;
   }
-  .faqContainer {
-    width: 100%;
-    padding: 20px;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    margin-bottom: 3%;
-  }
-  
+
   .fatitle {
-    font-size: 48px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .faqItem {
-    background-color: #fff;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    margin-bottom: 20px;
-    padding: 15px 15px;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s;
-  }
-  
-  .faqItem.active {
-    background-color: #f8fafc;
-  }
-  
-  .questionContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .question {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #333;
-  }
-  
-  .faicon {
     font-size: 1.5rem;
-    font-weight: bold;
-    color: #4a4a4a;
   }
-  
-  .answer {
+
+  .question {
     font-size: 0.9rem;
-    font-weight: 400;
-    margin-top: 8px;
-    color: #666;
-    width: 85%;
   }
-  
-  
-  @media (max-width: 768px) {
-    .faqContainer {
-      padding: 10px 0;
-    }
-  
-    .fatitle {
-      font-size: 1.5rem;
-    }
-  
-    .question {
-      font-size: 0.9rem;
-    }
-  
-    .answer {
-      font-size: 0.85rem;
-    }
-  }
-  
-  @media (max-width:1210px) {
-    .testimonialSection{
-      border: none;
-    }
-    .faqContainer{
-      border: none;
-    }
-    .filterButton{
-      padding: 8px 15px;
-    }
-    }
 
-
-  /* up to date */
-  
-  .contactMainn{
-    padding: 52px 5%;
+  .answer {
+    font-size: 0.85rem;
   }
-  .contactBottom{
-    background-color: var(--border-color);
-    padding: 2rem;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-  }
-  .contLeft h2{
-   font-size: 30px;
-  }
-  .contLeft p{
-    margin-top: 10px;
-  }
-  .contRight{
-    border: 1px solid;
-    border-radius: 5px;
-    padding-left: 1rem;
-    width: 35%;
-    display: flex;
-    justify-content: space-between;
-  }
-  .contRight input{
-    background-color: transparent;
-    border: none;
-    outline: none;
-    font-size: 15px;
-    color: white;
 }
-.contRight input::placeholder{
-    color: white !important;
-    font-weight: 400;
-  }
-  .contRight button{
-    background-color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    color: #2a8678;
-  }
-  
-@media (max-width: 768px) {
-    .faqContainer {
-      padding: 10px 0;
-    }
-  
-    .fatitle {
-      font-size: 1.5rem;
-    }
-  
-    .question {
-      font-size: 0.9rem;
-    }
-  
-    .answer {
-      font-size: 0.85rem;
-    }
-    .buttonsContainer{
-      gap: 10px;
-      justify-content:flex-start;
-    }
-    .filterButton{
-      padding: 8px 10px;
-      font-size: 15px;
-    }
-  }
-  
-    @media (max-width:1100px) {
-    .card h3{
-      font-size: 18px;
-    }
-    .imagemain{
-      height: 90px;
-      width: 90px;
-    }
-    .cardsContainer{
-      gap: 25px;
-    }
-    .buttonsContainer{
-      flex-wrap: wrap;
-    }
-    }
 
-    @media (max-width:1650px) {
-      .cardsContainer {
-        gap: 70px;
-      }
-      .cardDescription{
-        font-size: 15px;
-      }
-      .cardButton{
-        margin-top: 5%;
-      }
-      .imagemain{
-        height: 140px;
-        width: 140px;
-      }
-       
+@media (max-width:1210px) {
+  .testimonialSection {
+    border: none;
+  }
+
+  .faqContainer {
+    border: none;
+  }
+
+  .filterButton {
+    padding: 8px 15px;
+  }
+}
+
+
+/* up to date */
+
+.contactMainn {
+  padding: 52px 0;
+  max-width: 1250px;
+  margin: auto;
+}
+
+.contactBottom {
+  background-color: var(--border-color);
+  padding: 2rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.contLeft h2 {
+  font-size: 30px;
+}
+
+.contLeft p {
+  margin-top: 10px;
+}
+
+.contRight {
+  border: 1px solid;
+  border-radius: 5px;
+  padding-left: 1rem;
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contRight input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: white;
+}
+
+.contRight input::placeholder {
+  color: white !important;
+  font-weight: 400;
+}
+
+.contRight button {
+  background-color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #2a8678;
+}
+
+@media (max-width: 768px) {
+  .faqContainer {
+    padding: 10px 0;
+  }
+
+  .fatitle {
+    font-size: 1.5rem;
+  }
+
+  .question {
+    font-size: 0.9rem;
+  }
+
+  .answer {
+    font-size: 0.85rem;
+  }
+
+  .buttonsContainer {
+    gap: 10px;
+    justify-content: flex-start;
+  }
+
+  .filterButton {
+    padding: 8px 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width:1100px) {
+  .card h3 {
+    font-size: 18px;
+  }
+
+  .imagemain {
+    height: 90px;
+    width: 90px;
+  }
+
+  .cardsContainer {
+    gap: 25px;
+  }
+
+  .buttonsContainer {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:1650px) {
+  .cardsContainer {
+    gap: 70px;
+  }
+
+  .cardDescription {
+    font-size: 15px;
+  }
+
+  .cardButton {
+    margin-top: 5%;
+  }
+
+  .imagemain {
+    height: 140px;
+    width: 140px;
+  }
+
   .textContainer {
     max-width: 650px;
   }
+
   .imageContainer {
     max-width: 450px;
   }
-    }
-
-    @media (max-width:1350px) {
-      .cardsContainer {
-        gap: 40px;
-      }
-      .cardDescription{
-        font-size: 15px;
-      }
-      .cardButton{
-        margin-top: 4%;
-      }
-      .card{
-        padding: 30px 20px;
-      }
-      .imagemain{
-        height: 140px;
-        width: 140px;
-      }
-      .textContainer{
-        max-width: none;
-        width: 52%;
-       }
-       .imageContainer{
-       max-width: none;
-       width: 30%;
-       }
-       .title{
-         font-size: 50px !important;
-       }
-    }
-
-    @media (max-width:1150px) {
-      .cardsContainer{
-        grid-template-columns: repeat(2, 1fr);
-        gap: 35px;
-      }
-      .imagemain{
-        height: 120px;
-        width: 120px;
-      }
-    }
-
-
-    @media (max-width:1000px) {
-    .textContainer{
-     width: 50%;
-    }
-    .imageContainer{
-    width: 40%;
-    }
-    .faqmain{
-      flex-direction: column;
-    }
-    .title{
-      font-size: 35px !important;
-    }
-    .banner{
-      padding-left: 40px;
-    }
-    .contactBottom{
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    .contRight{
-      margin-top: 20px;
-      width: 60%;
-    }
- 
-    }
-  @media (max-width:900px) {
-.imageContainer{
-    width: 48%;
 }
 
+@media (max-width:1400px) {
+  .banner {
+    padding: 45px 5%;
   }
- 
+
+  .integrationSection {
+    padding: 50px 5%;
+  }
+
+  .contactMainn {
+    padding: 52px 5%;
+  }
+
+  .faqMain {
+    padding: 10px 5%;
+  }
+}
+
+@media (max-width:1350px) {
+  .cardsContainer {
+    gap: 40px;
+  }
+
+  .cardDescription {
+    font-size: 15px;
+  }
+
+  .cardButton {
+    margin-top: 4%;
+  }
+
+  .card {
+    padding: 30px 20px;
+  }
+
+  .imagemain {
+    height: 140px;
+    width: 140px;
+  }
+
+  .textContainer {
+    max-width: none;
+    width: 52%;
+  }
+
+  .imageContainer {
+    max-width: none;
+    width: 30%;
+  }
+
+  .title {
+    font-size: 50px !important;
+  }
+}
+
+@media (max-width:1150px) {
+  .cardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+  }
+
+  .imagemain {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+
+@media (max-width:1000px) {
+  .textContainer {
+    width: 50%;
+  }
+
+  .imageContainer {
+    width: 40%;
+  }
+
+  .faqmain {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 35px !important;
+  }
+
+  .banner {
+    padding-left: 40px;
+  }
+
+  .contactBottom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contRight {
+    margin-top: 20px;
+    width: 60%;
+  }
+
+}
+
+@media (max-width:900px) {
+  .imageContainer {
+    width: 48%;
+  }
+
+}
+
 @media (max-width: 850px) {
-  .textContainer{
+  .textContainer {
     width: 55%;
-   }
-   .imageContainer{
-   width: 40%;
-   }
+  }
+
+  .imageContainer {
+    width: 40%;
+  }
 }
 
 
 @media (max-width: 650px) {
-.cardsContainer{
-  grid-template-columns: repeat(1, 1fr);
+  .cardsContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .imagemain {
+    height: 120px;
+    width: 120px;
+  }
+
+  .banner {
+    padding-left: 20px;
+  }
+
+  .title {
+    font-size: 35px !important;
+  }
+
+  .faqContainer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .contactMainn {
+    padding: 20px;
+  }
 }
-.imagemain{
-  height: 120px;
-  width: 120px;
-}
-.banner{
-  padding-left: 20px;
-}
-.title{
-  font-size: 35px !important;
-}
-.integrationSection {
- padding: 20px 0;
-}
-.faqContainer{
-  padding-left: 0;
-  padding-right: 0;
-}
-.faqMain{
-  padding: 20px 0;
-}
-.contactMainn{
-  padding: 20px;
-}
-}
+
 @media (max-width: 700px) {
-  .imageContainer{
+  .imageContainer {
     display: none;
   }
-  .imageContainer2{
+
+  .imageContainer2 {
     display: block;
   }
-  .textContainer{
+
+  .textContainer {
     width: 100%;
     padding: 5% 0;
   }
-  .contactBottom{
+
+  .contactBottom {
     justify-content: flex-start;
     align-items: flex-start;
   }
 }
 
 @media (max-width: 500px) {
-  .contactBottom{
+  .contactBottom {
     padding: 10px;
-}
-.subtitle{
-  font-size: 15px;
-}
-.contRight{
-  border: none;
-  display: flex;
-  flex-direction: column !important;
-  padding: 0;
-  width: 100%;
-  justify-content: space-between;
-}
-.contRight input{
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .contRight {
+    border: none;
+    display: flex;
+    flex-direction: column !important;
+    padding: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .contRight input {
     border: 1px solid white;
-    padding: 10px ;
+    padding: 10px;
     border-radius: 5px;
-    width:100%;
+    width: 100%;
     margin-bottom: 20px
-}
-.banner{
-  padding-right: 20px;
-}
-.searchContainer{
-  width: 100% ;
-}
-.searchInput{
-  padding-right: 0;
-}
+  }
+
+  .banner {
+    padding-right: 20px;
+  }
+
+  .searchContainer {
+    width: 100%;
+  }
+
+  .searchInput {
+    padding-right: 0;
+  }
 }

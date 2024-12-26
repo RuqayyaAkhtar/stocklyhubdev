@@ -28,6 +28,7 @@ const IndustriesPage = () => {
   return (
     <>
     <Header/>
+    <div className={styles.containerMain}>
     <section className={styles.banner}>
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Features</h1>
@@ -43,8 +44,9 @@ const IndustriesPage = () => {
         <Image src={faqImage} alt="FAQ Overview" className={styles.faqImage} />
       </div>
     </section>
-
+</div>
     {/* section2 */} 
+    <div className={styles.containerMain1}>
     <div className={styles.integrationSection}>
   {/* Buttons */}
   <div className={styles.buttons}>
@@ -108,7 +110,7 @@ const IndustriesPage = () => {
     ))}
 </div>
 </div>
-
+</div>
 
   {/* faqs */}
             <div className={styles.faqMain}>

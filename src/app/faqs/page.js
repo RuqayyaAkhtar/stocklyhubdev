@@ -47,6 +47,7 @@ const FAQBanner = () => {
   return (
     <>
     <Header/>
+    <div className={styles.containerMain}>
     <section className={styles.banner}>
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Frequently Asked Questions</h1>
@@ -66,8 +67,9 @@ const FAQBanner = () => {
         <Image src={faqImage} alt="FAQ Overview" className={styles.faqImage} />
       </div>
     </section>
+</div>
     {/* section2 */}
-
+    <div className={styles.containerMain1}>
     <section className={styles.faqmain}>
     <div className={`${styles.textContainer} ${styles.textContainer2}`}>
     <h1 className={styles.s2title}>General FAQs</h1>
@@ -92,6 +94,7 @@ const FAQBanner = () => {
       ))}
       </div>
     </section>
+    </div>
     {/*  */}
     <Help/>
     <Footer/>

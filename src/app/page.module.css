@@ -1,7 +1,5 @@
-
 /* header */
 .header {
-  /* max-width: 1500px; */
   margin: auto;
   position: sticky;
   top: 0;
@@ -14,6 +12,7 @@
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
   background-color: white;
 }
+
 /* search */
 .searchPopup {
   position: fixed;
@@ -81,9 +80,10 @@
   gap: 30px;
 }
 
-.menuLi{
+.menuLi {
   display: none;
 }
+
 .navList li {
   text-transform: capitalize;
   font-size: 16px;
@@ -91,17 +91,17 @@
 
 .navList li a {
   font-family: 'poppins';
-  color:black;
+  color: black;
   font-weight: 400;
   text-decoration: none;
 }
 
 .navList li a:hover {
-  color:#4D9A8E;
+  color: #4D9A8E;
 }
 
 .demoBtn {
-  background-color:#218172;
+  background-color: #218172;
   border: none;
   padding: 8px 30px;
   border-radius: 5px;
@@ -112,8 +112,8 @@
   transition: all .3s;
 }
 
-.demoBtn2{
-  background-color:#218172;
+.demoBtn2 {
+  background-color: #218172;
   border: none;
   padding: 8px 30px;
   border-radius: 5px;
@@ -124,20 +124,22 @@
   border: 1px solid #218172;
   transition: all .3s;
 }
-.demoA{
+
+.demoA {
   font-size: 17px;
 }
+
 .bookDemoA {
   color: white;
   text-decoration: none;
   font-weight: 400;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
-.menuIcon{
+.menuIcon {
   cursor: pointer;
   font-size: 25px;
   color: black;
@@ -159,11 +161,13 @@
   transition: all 1s ease !important;
 
 }
-.crossButton{
+
+.crossButton {
   border: none;
   background-color: transparent;
   outline: none;
 }
+
 .crossIcone {
   font-size: 20px;
   color: black;
@@ -187,7 +191,8 @@
 .menuList li a:hover {
   color: #218172;
 }
-.text_light{
+
+.text_light {
   color: white !important;
 }
 
@@ -198,12 +203,14 @@
   align-items: center;
   gap: 20px;
 }
-.searchicon{
-  color:#218172;
+
+.searchicon {
+  color: #218172;
   font-size: 20px;
   position: relative;
 }
-.searchDiv{
+
+.searchDiv {
   border: 1px solid #218172;
   height: 40px;
   width: 40px;
@@ -212,13 +219,14 @@
   align-items: center;
   justify-content: center;
 }
+
 .demoBtn:hover {
-  background-color:transparent !important;
+  background-color: transparent !important;
   border: 1px solid #218172 !important;
   color: #218172 !important;
 }
 
-.demoBtn:hover a{
+.demoBtn:hover a {
   color: #218172 !important;
 }
 
@@ -226,7 +234,7 @@
 
 .logo {
   height: auto;
-  width:170px !important;
+  width: 170px !important;
 }
 
 .logo .logo_im_n {
@@ -243,7 +251,6 @@
 .container {
   max-width: 1250px;
   margin: 0 auto;
-  /* padding: 20px 5%; */
 }
 
 .footerContent {
@@ -251,17 +258,20 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.footer_sec{
+
+.footer_sec {
   display: flex;
-  width: 65% ;
+  width: 65%;
   justify-content: space-around;
 }
+
 .footerSection1 {
   min-width: 180px;
   width: 30%;
   margin-bottom: 20px;
 }
-.footerSection1>p{
+
+.footerSection1>p {
   font-size: 13px;
   font-weight: 400 !important;
   line-height: 21px;
@@ -294,6 +304,7 @@
   cursor: pointer;
   transition: all .2s;
 }
+
 .footerSection ul li:hover {
   margin-bottom: 8px;
   font-weight: 400;
@@ -310,16 +321,17 @@
 .contact p svg {
   margin-right: 10px;
 }
-.copyright{
+
+.copyright {
   font-size: 16px !important;
   margin-top: 35px !important;
-  font-weight: 400 ;
+  font-weight: 400;
 }
 
 .footerBottom {
   display: flex;
   justify-content: space-between;
-  align-items:flex-end;
+  align-items: flex-end;
   flex-wrap: wrap;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   padding-top: 20px;
@@ -336,28 +348,30 @@
 
 .subscribeForm input {
   flex: 1;
-  outline:none;
+  outline: none;
   padding: 15px 10px;
   border: none;
   border-radius: 5px;
   background-color: #4D9A8E;
   color: white;
 }
-.subscribeForm input::placeholder{
+
+.subscribeForm input::placeholder {
   color: white;
 }
 
 .subscribeForm button {
   padding: 8px 30px;
   border: 1px solid white;
-  color:white;
+  color: white;
   cursor: pointer;
   border-radius: 5px;
   margin-left: 30px;
   background-color: transparent;
 }
+
 .subscribeForm button:hover {
-  background-color:#4D9A8E;
+  background-color: #4D9A8E;
   border-color: #4D9A8E;
 }
 
@@ -365,12 +379,13 @@
   display: flex;
   align-items: center;
 }
-.termss a{
+
+.termss a {
   font-size: 11px;
   margin-right: 15px;
 }
 
-.footerBottom2{
+.footerBottom2 {
   margin-top: 10px;
 }
 
@@ -387,91 +402,105 @@
 }
 
 .socialIcons a:hover {
-  color:#4D9A8E;
+  color: #4D9A8E;
   border-color: #4D9A8E;
 }
 
 /* media */
 
 @media (max-width:1650px) {
-  .header{
+  .header {
     padding: 0 9%;
   }
 }
 
 @media (max-width:1530px) {
-  .header{
+  .header {
     padding: 0 5%;
   }
 }
 
 @media (max-width:1400px) {
-  .container{
-     padding: 20px 5%;
+  .container {
+    padding: 20px 5%;
   }
-  
+
 }
+
 @media (max-width:1158px) {
- .nav {
-   display: none;
- }
- .menuIcon{
-   display: block;
- }
- .menuLi{
-  display: block;
- }
- 
- }
- 
+  .nav {
+    display: none;
+  }
+
+  .menuIcon {
+    display: block;
+  }
+
+  .menuLi {
+    display: block;
+  }
+
+}
+
 @media (max-width: 768px) {
- .footer_sec{
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 40px;
-  margin-top: 2%;
- }
- .footerSection1{
-  width: 50%;
- }
- .footerContent{
-  flex-direction: column;
- }
- .footerBottom{
-  flex-direction: column;
- }
- .subscribeSection{
-  width: 100%;
- }
- .socialIcons{
-  margin-top: 5%;
-  align-self: flex-start;
- }
- .wts{
-  margin-left: 0 !important;
- }
- .subscribeForm{
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: flex-start !important;
- }
- .subscribeForm button{
-  margin-left: 0;
- }
+  .footer_sec {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-top: 2%;
+  }
+
+  .footerSection1 {
+    width: 50%;
+  }
+
+  .footerContent {
+    flex-direction: column;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+  }
+
+  .subscribeSection {
+    width: 100%;
+  }
+
+  .socialIcons {
+    margin-top: 5%;
+    align-self: flex-start;
+  }
+
+  .wts {
+    margin-left: 0 !important;
+  }
+
+  .subscribeForm {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start !important;
+  }
+
+  .subscribeForm button {
+    margin-left: 0;
+  }
 }
 
 @media (max-width:620px) {
-.searchDiv{
-  display: none;
+  .searchDiv {
+    display: none;
+  }
+
+  .demoBtn {
+    display: none;
+  }
+
+  .logoContainer {
+    width: 150px;
+  }
+
+  .header {
+    padding: 0 2rem;
+  }
 }
-.demoBtn{
-  display: none;
-}
-.logoContainer{
-  width: 150px;
-}
-.header{
-  padding: 0 2rem;
-}
- }
