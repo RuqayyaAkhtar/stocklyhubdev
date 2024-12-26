@@ -33,17 +33,17 @@
   margin-bottom: 1.5rem;
   font-weight: 400;
   color: #ffffff;
+  width: 100%;
 }
 
 .searchContainer {
   display: flex;
-  justify-content: center;
   align-items: center;
   border: 1px solid white;
-  width: 83%;
+  width: 90%;
   padding-left: 15px;
   border-radius: 4px;
-  margin-top: 10%;
+  margin-top: 4%;
 }
 
 .searchIcon {
