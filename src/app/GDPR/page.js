@@ -18,14 +18,6 @@ const GDPR = () => {
                     <p className={styles.subtitle}>
                     Read our terms below to learn more about your rights and responsibilities as a Stocklyhub user.
                     </p>
-                    <div className={styles.searchContainer}>
-                        <CiSearch className={styles.searchIcon} />
-                        <input
-                            type="text"
-                            placeholder="Search Question in your Mind"
-                            className={styles.searchInput}
-                        />
-                    </div>
                     <p className={styles.update}>Latest update on 12 sep, 2024</p>
                 </div>
                 <div className={styles.imageContainer}>

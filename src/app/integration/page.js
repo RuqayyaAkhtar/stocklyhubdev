@@ -90,14 +90,7 @@ const Integrations = () => {
                     <p className={styles.subtitle}>
                         Stocklyhub easily connects with a wide range of online resources and applications. Configure repair shop software to interact with numerous external services with ease.
                     </p>
-                    <div className={styles.searchContainer}>
-                        <CiSearch className={styles.searchIcon} />
-                        <input
-                            type="text"
-                            placeholder="Search Question in your Mind"
-                            className={styles.searchInput}
-                        />
-                    </div>
+        
                 </div>
                 <div className={styles.imageContainer}>
                     <Image src={faqImage} alt="FAQ Overview" className={styles.faqImage} />
