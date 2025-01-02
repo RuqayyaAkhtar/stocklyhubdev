@@ -76,6 +76,7 @@ const Footer = () => {
                 <li>Help center</li>
                 <li>Tutorials</li>
                 <li>Support</li>
+                <li><a href="/stocklyhubdev/equipment">Equipment</a></li>
               </ul>
             </div>
           </div>

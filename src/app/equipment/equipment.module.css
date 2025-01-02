@@ -84,14 +84,11 @@
   }
   
   .integrationSection {
-    /* width: 90%; */
     max-width: 1250px;
     margin: auto;
     padding: 50px 0;
-    font-family: Arial, sans-serif;
   }
   .equipmentSection {
-    padding: 2rem;
     background-color: #ffffff;
   }
   
@@ -123,11 +120,7 @@
   }
   
   .itemCard {
-    background: #E6F6F4;
-    padding: 1.5rem;
-    border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: #E6F6F4;
     padding: 40px 30px;
@@ -248,6 +241,7 @@
   
     .faqContainer {
       border: none;
+      padding: 10px 0;
     }
   
     .filterButton {
@@ -392,7 +386,7 @@
     }
   
     .integrationSection {
-      padding: 50px 5%;
+      /* padding: 50px 5%; */
     }
   
     .contactMainn {
@@ -401,6 +395,9 @@
   
     .faqMain {
       padding: 10px 5%;
+    }
+    .equipmentSection {
+      padding: 2rem 5%;
     }
   }
   
