@@ -34,6 +34,7 @@ const Header = () => {
           <li><a href="/stocklyhubdev/features">Features</a></li>
           <li><a href="/stocklyhubdev/integration">Integrations</a></li>
           <li><a href="/stocklyhubdev/pricing">Pricing</a></li>
+          <li><a href="/stocklyhubdev/equipment">Equipment</a></li>
           <li className="hideItem"><a href="/stocklyhubdev/contacts">Contact Us</a></li>
           <li className="hideItem"><a href="/stocklyhubdev/login">Login</a></li>
         </ul>
@@ -63,6 +64,7 @@ const Header = () => {
                 <li><a href="/stocklyhubdev/features">Features</a></li>
                 <li><a href="/stocklyhubdev/integration">Integrations</a></li>
                 <li><a href="/stocklyhubdev/pricing">Pricing</a></li>
+                <li><a href="/stocklyhubdev/equipment">Equipment</a></li>
                 <li><a href="/stocklyhubdev/contacts">Contact Us</a></li>
                 <li><a href="/stocklyhubdev/login">Login</a></li>
                 <li><a href="/stocklyhubdev/blogs">Blogs</a></li>

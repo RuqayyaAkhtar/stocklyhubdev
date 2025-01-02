@@ -4,7 +4,7 @@ import { FaPhoneAlt, FaEnvelope, FaWhatsapp, FaLinkedin, FaFacebookF } from 'rea
 import '../globals.css';
 import styles from '../page.module.css';
 import Image from 'next/image';
-import footerlogo from '../images/Group 1171277301.png';
+import footerlogo from '../images/Group 1171278380.png';
 
 const Footer = () => {
   return (
