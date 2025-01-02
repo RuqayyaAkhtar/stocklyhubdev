@@ -4,45 +4,12 @@ import styles from './equipment.module.css';
 import Image from 'next/image';
 import faqImage from '../images/Group 1171278389.png'; 
 import Header from '../header/page';
-import { CiSearch } from "react-icons/ci";
 import Footer from '../footer/page';
 import { GoPlus } from "react-icons/go";
 import { HiOutlineMinusSmall } from "react-icons/hi2";
-//
-import ebay from '../images/image (1).png'
-import logo from '../images/Group 1171278159.png'
-
 import equipmentData from './data'
 import { useState } from 'react';
-
-
-
-const faqs = [
-    {
-        question: "Is there a free trial available?",
-        answer: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with 8 free 30-minute onboarding calls to get you up and running. Book a call here.",
-    },
-    {
-        question: "Is there a free trial available?",
-        answer: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with 8 free 30-minute onboarding calls to get you up and running. Book a call here.",
-    },
-    {
-        question: "Is there a free trial available?",
-        answer: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with 8 free 30-minute onboarding calls to get you up and running. Book a call here.",
-    },
-    {
-        question: "Is there a free trial available?",
-        answer: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with 8 free 30-minute onboarding calls to get you up and running. Book a call here.",
-    },
-    {
-        question: "Is there a free trial available?",
-        answer: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with 8 free 30-minute onboarding calls to get you up and running. Book a call here.",
-    },
-    {
-        question: "Is there a free trial available?",
-        answer: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with 8 free 30-minute onboarding calls to get you up and running. Book a call here.",
-    },
-];
+import {faqs} from './data'
 const Integrations = () => {
     const [openIndex, setOpenIndex] = useState(0);
 

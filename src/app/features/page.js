@@ -16,7 +16,6 @@ import { AiFillTool } from "react-icons/ai";
 
 const IndustriesPage = () => {
   
-      // faqs
 
       const [openIndex, setOpenIndex] = useState(0);
 

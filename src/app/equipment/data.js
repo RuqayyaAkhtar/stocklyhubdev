@@ -140,4 +140,31 @@ import creditImage2 from '../images/image (5).png';
       ]
     }
 ];
+
+export const faqs = [
+  {
+      question: "Is there a free trial available?",
+      answer: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with 8 free 30-minute onboarding calls to get you up and running. Book a call here.",
+  },
+  {
+      question: "Is there a free trial available?",
+      answer: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with 8 free 30-minute onboarding calls to get you up and running. Book a call here.",
+  },
+  {
+      question: "Is there a free trial available?",
+      answer: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with 8 free 30-minute onboarding calls to get you up and running. Book a call here.",
+  },
+  {
+      question: "Is there a free trial available?",
+      answer: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with 8 free 30-minute onboarding calls to get you up and running. Book a call here.",
+  },
+  {
+      question: "Is there a free trial available?",
+      answer: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with 8 free 30-minute onboarding calls to get you up and running. Book a call here.",
+  },
+  {
+      question: "Is there a free trial available?",
+      answer: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with 8 free 30-minute onboarding calls to get you up and running. Book a call here.",
+  },
+];
 export default equipmentData;

@@ -87,7 +87,6 @@ const Footer = () => {
             <p>News & Update</p>
             <div className={styles.subscribeForm}>
               <input type="email" placeholder="Your Email Address" />
-              {/* <button>Subscribe</button> */}
             </div>
           </div>
           <div className={styles.socialIcons}>
