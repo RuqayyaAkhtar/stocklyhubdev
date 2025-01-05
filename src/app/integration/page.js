@@ -2,7 +2,7 @@
 import React from 'react';
 import styles from './page.module.css';
 import Image from 'next/image';
-import faqImage from '../images/Group 1171278392.png';
+import faqImage from '../images/integration.png';
 import Header from '../header/page';
 import { CiSearch } from "react-icons/ci";
 import Footer from '../footer/page';
